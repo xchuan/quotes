@@ -1,0 +1,55 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  display:flex;
+  width: 100%;
+  height: 100vh;
+  font-family: Inter, system-ui ,Helvetica,Arial,sans-serif
+}
+
+main{
+  margin: auto;
+  width: 100%;
+  max-width: 550px;
+  align-items:center;
+  justify-content:center;
+  word-break: keep-all;
+  height: 350px;
+  position: relative;
+  text-align: center;
+}
+
+main > h3{
+  max-width: 480px;
+  margin: 70px auto 30px auto;
+}
+
+main > h5 {
+  font-weight: normal;
+  font-size: 16px;
+  word-break: keep-all;
+}
+
+.quotation{
+  background-image: url(https://img.xfiled.one/nchome/dot.svg);
+  background-size: 100% 100%;
+  width: 28px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  filter: invert(95%) sepia(9%) saturate(2506%) hue-rotate(56deg) brightness(100%) contrast(98%);
+}
+
+.breakline{
+  background-image: url(https://img.xfiled.one/nchome/sign.svg);
+  background-size: 100% 100%;
+  width: 195px;
+  height: 15px;
+  margin: 0px auto;
+}
+
+.qtwo{
+  left: 32px;
+}
