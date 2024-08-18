@@ -5,21 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Motivational Quotes - 励志名言</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/htmx.org@2.0.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
 </head>
 <body>
-  <script src="https://unpkg.com/htmx.org@2.0.2"></script>
   <header></header>
   <main>
     <div class="quotation"></div><div class="quotation qtwo"></div>
-    <h3>如果你愿意，你生命中的每一刻都可以是美妙的体验。仅仅是吸气和呼气，就可以是一场巨大的爱恋。</h3>
+    <h3 id="quotation_text"></h3>
     <div class="breakline"></div>
-    <h5>If you are willing, every momemt of your life can be a fantastic experience. Just inhalation and exhalation can be a tremendous love affair.</h5>
-    <div id="author">- 萨古鲁 (Sadhguru) 印度上师</div>
-    <div class="author"></div>
+    <h5 id="quotation_linetwo"></h5>
+    <div id="author"></div>
+    <div id="signature" class="author"></div>
   </main>
   <footer>
-    <div class="center">免责声明：<br>以上文章内容均来源于原创网站或网友收集，不代表本站观点，与本站立场无关，仅供学习和参考。本站不是任何杂志的官方网站，直投稿件和出版请联系出版社。</div>
-    <div class="pager"><a class="prev"></a><a class="next"></a></div>
+    <div id="copyright" class="center"></div>
+    <div class="pager"><a id="prev" class="prev"></a><a id="next" class="next"></a></div>
   </footer>
+  <script>
+    let data,counter=0,maxlength=0;
+    // JavaScript fetch example
+    document.addEventListener('DOMContentLoaded', function() {
+      fetchJson();
+      const prev = document.getElementById('prev');
+      prev.addEventListener('click', showQuote);
+      const next = document.getElementById('next');
+      next.addEventListener('click', showQuote);
+    });
+    async function fetchJson() {
+        const response = await fetch('/quotes1.json');
+        data = await response.json();
+        maxlength = data["data"] ? data["data"].length : 0;
+        cc = data["copyright"] ? data["copyright"] : "&copy; 2024";
+        document.getElementById('copyright').innerHTML = cc;
+        if(maxlength>0)
+        nextQuote(_.random(0, maxlength-1))
+    }
+
+    const nextQuote = (now) => {
+      let nowQ = data["data"][now];
+      if(nowQ){
+        document.getElementById('quotation_text').textContent = nowQ.quote;
+        document.getElementById('quotation_linetwo').textContent = nowQ.line_two ?? "";
+        document.getElementById('author').textContent = nowQ.author;
+        document.getElementById('signature').style.display = nowQ.show_signature ? "block" : "none";
+      }
+    }
+
+    const showQuote = ()=>{
+      counter++;
+      if(counter==maxlength)counter=0;
+      nextQuote(counter);
+    }
+</script>
 </body>
 </html>
