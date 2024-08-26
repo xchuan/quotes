@@ -31,6 +31,7 @@
       prev.addEventListener('click', showQuote);
       const next = document.getElementById('next');
       next.addEventListener('click', showQuote);
+      fetchJsonTwo();
     });
     async function fetchJson() {
         const response = await fetch('/quotes1.json');
@@ -40,6 +41,12 @@
         document.getElementById('copyright').innerHTML = cc;
         if(maxlength>0)
         nextQuote(_.random(0, maxlength-1))
+    }
+
+    async function fetchJsonTwo() {
+        const response = await fetch('https://quotes.xchuan.workers.dev/go?no=1');
+        data = await response.json();
+        console.log(data);
     }
 
     const nextQuote = (now) => {
