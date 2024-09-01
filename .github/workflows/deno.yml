@@ -11,6 +11,7 @@
 name: Deno
 
 on:
+  push:
   workflow_dispatch:
   repository_dispatch:
     types: [schedule-run]
@@ -48,7 +49,7 @@ jobs:
           git config --local user.name "Chuan"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}@github.com/${{ github.repository }}
           git pull
-          deno run --unstable-* --allow-net --allow-read --allow-write --import-map=import_map.json mod.ts
+          deno run --unstable --allow-net --allow-read --allow-write --import-map=import_map.json mod.ts
           git add .
           git commit -m "update by github action"
           git push
