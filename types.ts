@@ -6,6 +6,7 @@ export interface IImg {
 }
 
 export interface IArticle {
+  id:number;
   article: string;
   author: {
     display_name: string;
@@ -16,6 +17,14 @@ export interface IArticle {
   title: string;
   uri: string;
   display_time: number;
+}
+
+export type ArticleContent = {
+  id: string;
+  title: string;
+  author: string;
+  datetime:number;
+  file:string;
 }
 
 export interface IResponse {
