@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weekly News</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script>
         //alert("https://img.xfiled.one/nchome/w36_contents.json")
         //https://img.xfiled.one/nchome/202409031750.json
@@ -24,5 +25,17 @@
             </ul>
         </div>
     </main>
+    <script>
+        let data,counter=0,maxlength=0;
+        // JavaScript fetch example
+        document.addEventListener('DOMContentLoaded', function() {
+          fetchJson();
+        });
+        async function fetchJson() {
+          const response = await fetch('https://img.xfiled.one/nchome/w36_contents.json');
+          data = await response.json();
+          console.log(data);
+        }
+    </script>
 </body>
 </html>
