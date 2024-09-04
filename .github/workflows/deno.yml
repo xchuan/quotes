@@ -11,7 +11,6 @@
 name: Deno
 
 on:
-  push:
   workflow_dispatch:
   repository_dispatch:
     types: [schedule-run]
