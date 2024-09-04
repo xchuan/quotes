@@ -1,5 +1,7 @@
 {
   "imports": {
-    "std/": "https://deno.land/std@0.90.0/"
+    "std/": "https://deno.land/std@0.224.0/",
+    "minio": "npm:minio@8.0.1",
+    "moment": "npm:moment@2.30.1"
   }
 }
