@@ -1,41 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weekly News</title>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        //alert("https://img.xfiled.one/nchome/w36_contents.json")
-        //https://img.xfiled.one/nchome/202409031750.json
+      //alert("https://img.xfiled.one/nchome/w36_contents.json")
+      //https://img.xfiled.one/nchome/202409031750.json
+      //界面参考
+      //https://www.lodashjs.com/docs/lodash.join
     </script>
-</head>
-<body>
+    <style>
+        html,body,h1,h2,h3{
+            margin: 0px;
+            padding: 0px;
+        }
+      main {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #ddd;
+        overflow: hidden;
+        display: flex;
+        align-items: stretch;
+      }
+      menu {
+        width: 200px;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(222, 230, 218);
+      }
+      #weeklist{
+        margin: 0px;
+        padding: 0px;
+        padding-left: 19px;
+        font-size: 12px;
+      }
+      article {
+        background-color: rgb(235, 255, 253);
+        flex:1;
+      }
+    </style>
+  </head>
+  <body>
     <main>
+      <menu>
+        <h3>Week 36</h3>
+        <ol id="weeklist"></ol>
+      </menu>
+      <article>
         <h1>新闻标题</h1>
         <div class="content_lines">新闻内容</div>
         <div class="content_ref">
-            <ul>
-                <li>时间：</li>
-                <li>地点：</li>
-                <li>关键词：</li>
-                <li>原因：</li>
-                <li>涉及人物：</li>
-                <li>发生过程：</li>
-            </ul>
+          <ul>
+            <li>时间：</li>
+            <li>地点：</li>
+            <li>关键词：</li>
+            <li>原因：</li>
+            <li>涉及人物：</li>
+            <li>发生过程：</li>
+          </ul>
         </div>
+      </article>
     </main>
     <script>
-        let data,counter=0,maxlength=0;
-        // JavaScript fetch example
-        document.addEventListener('DOMContentLoaded', function() {
-          fetchJson();
-        });
-        async function fetchJson() {
-          const response = await fetch('https://img.xfiled.one/nchome/w36_contents.json');
-          data = await response.json();
-          console.log(data);
+      let data,
+        counter = 0,
+        maxlength = 0;
+      // JavaScript fetch example
+      document.addEventListener("DOMContentLoaded", function () {
+        fetchJson();
+      });
+      async function fetchJson() {
+        const response = await fetch(
+          "https://img.xfiled.one/nchome/w36_contents.json"
+        );
+        data = await response.json();
+        var allist = []
+        let wlst = document.getElementById('weeklist');
+        console.log(data['cc']);
+        
+        for (let index = 0; index < data['cc'].length; index++) {
+            const article = data['cc'][index];
+            if(article.title!=""){
+                const id = [article.id.replace('wscn_',''),article.file.replace('./news/','').replace('.json','').replaceAll('/','_')].join('_')
+                allist.push('<li><a href="/news.html?id='+id+'" target="_blank">'+article.title+'</a></li>')
+            }
         }
+        wlst.innerHTML = allist.join('')
+      }
     </script>
-</body>
+  </body>
 </html>
