@@ -4,6 +4,11 @@ import { createArticle, getWeekNumber, writeJson } from "./utils.ts";
 import * as Minio from "minio";
 import { existsSync } from "std/fs/exists.ts";
 import moment from 'moment';
+import { load } from "std/dotenv/mod.ts";
+
+const env = await load();
+const accessKey = env["ACCESS_KEY"];
+const secretKey = env["SECRET_KEY"];
 
 const NEWS_API = `https://api-one-wscn.awtmt.com/apiv1/content/lives?channel=global-channel&client=pc&limit=20&first_page=true&accept=live%2Cvip-live`;
 
@@ -11,8 +16,8 @@ const minioClient = new Minio.Client({
   endPoint: 'cone.xhashao.top',
   port: 443,
   useSSL: true,
-  accessKey: '',
-  secretKey: '',
+  accessKey: accessKey,
+  secretKey: secretKey,
 })
 
 const getBuckets = async() =>{
