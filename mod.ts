@@ -73,6 +73,7 @@ if(!fileExists){
   const response = await fetch(NEWS_API);
   const { data }: IResponse = await response.json();
   const articles = data.items;
+  let oldList:ArticleContent[] = [];
 
   const weekContent = {}
 
@@ -82,6 +83,13 @@ if(!fileExists){
   }
 
   if(articles.length > 0) {
+
+    console.log(weeknumber);
+    if(existsSync(`${outdirYear}contents.json`)){
+      const cthad = Deno.readTextFileSync(`${outdirYear}contents.json`);
+      const data = JSON.parse(cthad);
+      oldList = data['cc'];
+    }
 
     const artList:ArticleContent[] = []
 
@@ -99,9 +107,8 @@ if(!fileExists){
       });
     }
 
-    weekContent['cc'] = artList;
-  
-    console.log(weeknumber);
+    weekContent['cc'] = oldList.concat(artList);
+
     writeJson(`${outdirYear}contents.json`,weekContent);
     //moment().format('YYYYMMDDHHmm');
     writeJson(`${outdir}/${jsonfname}.json`,data);
@@ -109,7 +116,7 @@ if(!fileExists){
     await Deno.writeTextFile("./articles.html", allArchiveText.join("\n"), { append: true });
   }
 }else{
-  console.log('contents.json');
+  console.log('upload contents.json');
   //uploadJson(`${outdir}/${jsonfname}.json`);
   //uploadJsonCustom(`w${weeknumber[1]}_contents.json`,`${outdirYear}contents.json`);
 }
