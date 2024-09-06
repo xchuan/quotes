@@ -11,8 +11,8 @@ const minioClient = new Minio.Client({
   endPoint: 'cone.xhashao.top',
   port: 443,
   useSSL: true,
-  accessKey: 'vvjZPE9sc6KdrLV625nW',
-  secretKey: 'hXiQTWle3iIFRWcP9w9V2Q2M8UihstZJsWhER7UQ',
+  accessKey: '',
+  secretKey: '',
 })
 
 const getBuckets = async() =>{
