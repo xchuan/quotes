@@ -131,13 +131,13 @@ if(!fileExists){
 }else{
   console.log('upload contents.json');
   const cthad = Deno.readTextFileSync(`${outdirYear}contents.json`);
-  console.log(cthad.length,"cthad.length");
-  if(cthad){
+  if(cthad && cthad.length>0){
     const data = JSON.parse(cthad);
     oldList = data['cc'];
   }
 
-  console.log(_.map(oldList, 'id'));
+  console.log(_.map(oldList, 'id').length);
+  
   //uploadJson(`${outdir}/${jsonfname}.json`);
   //uploadJsonCustom(`w${weeknumber[1]}_contents.json`,`${outdirYear}contents.json`);
 }

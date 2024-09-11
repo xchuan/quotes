@@ -11,7 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js"></script><script>
       //alert("https://img.xfiled.one/nchome/w36_contents.json")
       //https://img.xfiled.one/nchome/202409031750.json
       //界面参考
@@ -63,7 +63,7 @@
   <body>
     <main>
       <menu>
-        <h3>Week 36</h3>
+        <h3 id="weeknumber">Week -</h3>
         <ol id="weeklist"></ol>
         <div id="wlpager"><a onClick="prevPage()">&lt;</a>&nbsp;<a onClick="nextPage()">&gt;</a></div>
       </menu>
@@ -88,7 +88,9 @@
         maxlength = 0;
       // JavaScript fetch example
       document.addEventListener("DOMContentLoaded", function () {
-        fetchJson();
+        var weeknumber = moment().week();
+        document.getElementById("weeknumber").innerHTML = "Week " + weeknumber
+        fetchJson(weeknumber);
       });
 
       function getPaginatedItems(items, page, pageSize) {
@@ -107,9 +109,9 @@
 
       var allist = [];
 
-      async function fetchJson() {
+      async function fetchJson(wknumber) {
         const response = await fetch(
-          "https://img.xfiled.one/nchome/w36_contents.json"
+          "https://img.xfiled.one/nchome/w"+wknumber+"_contents.json"
         );
         data = await response.json();
         
@@ -129,7 +131,7 @@
             allist.push(
               '<li><a href="/news.html?id=' +
                 id +
-                '" target="_blank">' +
+                '" target="_self">' +
                 article.title +
                 "</a></li>"
             );
