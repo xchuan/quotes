@@ -1,4 +1,5 @@
 import { IImg, IArticle } from "./types.ts";
+import { writeJson } from 'https://deno.land/x/jsonfile/mod.ts';
 
 export async function createReadme(image: IImg): Promise<string> {
   const readme = await Deno.readTextFile("./README.md");
@@ -66,11 +67,17 @@ export function getWeekNumber(d: Date) {
   return [d.getUTCFullYear(), weekNo, weekStartDate, weekEndDate] as const;
 }
 
-export function writeJson(path: string, data: object): string {
+export function writeJsonDirect(path: string, data: object): string {
   try {
     Deno.writeTextFileSync(path, JSON.stringify(data));
     return "Written to " + path;
   } catch (e) {
     return e.message;
   }
+}
+
+type PackageJson = object
+
+export async function writePackageJsonFile(filename: string, contents: PackageJson) {
+  await writeJson(filename, contents, { spaces: 2 });
 }

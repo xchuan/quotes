@@ -25,6 +25,8 @@ export type ArticleContent = {
   author: string;
   datetime:number;
   file:string;
+  content_text:string;
+
 }
 
 export interface IResponse {

@@ -1,20 +1,23 @@
 #!/usr/bin/env -S deno run --unstable --allow-net --allow-read --allow-write --import-map=import_map.json mod.ts
 import { IResponse, IImg, IArticle, ArticleContent } from "./types.ts";
-import { createArticle, getWeekNumber, writeJson } from "./utils.ts";
+import { createArticle, getWeekNumber, writePackageJsonFile } from "./utils.ts";
 import * as Minio from "minio";
 import { existsSync } from "std/fs/exists.ts";
 import moment from 'moment';
 import { load } from "std/dotenv/mod.ts";
+import "lodash/lodash.js";
 
+const _ = (self as any)._;
 const env = await load();
 const accessKey = env["ACCESS_KEY"];
 const secretKey = env["SECRET_KEY"];
-
-const NEWS_API = `https://api-one-wscn.awtmt.com/apiv1/content/lives?channel=global-channel&client=pc&limit=20&first_page=true&accept=live%2Cvip-live`;
+const endPoint = env["END_POINT"];
+const endPointPort = env["END_POINT_PORT"];
+const NEWS_API = env["NEWS_API_ONE"];
 
 const minioClient = new Minio.Client({
-  endPoint: 'cone.xhashao.top',
-  port: 443,
+  endPoint: endPoint,
+  port: Number(endPointPort),
   useSSL: true,
   accessKey: accessKey,
   secretKey: secretKey,
@@ -68,13 +71,13 @@ const uploadJsonCustom = (filename:string, filepath:string) => {
     console.log('Success', objInfo)
   })
 }
+let oldList:ArticleContent[] = [];
+
 
 if(!fileExists){
   const response = await fetch(NEWS_API);
   const { data }: IResponse = await response.json();
   const articles = data.items;
-  let oldList:ArticleContent[] = [];
-
   const weekContent = {}
 
   if (!response.ok) {
@@ -87,9 +90,15 @@ if(!fileExists){
     console.log(weeknumber);
     if(existsSync(`${outdirYear}contents.json`)){
       const cthad = Deno.readTextFileSync(`${outdirYear}contents.json`);
-      const data = JSON.parse(cthad);
-      oldList = data['cc'];
+      console.log(cthad.length,"cthad.length");
+      if(cthad){
+        const data = JSON.parse(cthad);
+        oldList = data['cc'];
+      }
     }
+
+    const alloldids = _.map(oldList, 'id');
+    
 
     const artList:ArticleContent[] = []
 
@@ -98,25 +107,37 @@ if(!fileExists){
       // 更新 archives
       const archiveTextSingle = createArticle(articleInfo);
       allArchiveText.push(archiveTextSingle);
-      artList.push({
-        id:`wscn_${articleInfo.id}`,
-        title:articleInfo.title,
-        author:articleInfo.author ? articleInfo.author.display_name : "",
-        datetime:articleInfo.display_time,
-        file:`${outdir}/${jsonfname}.json`
-      });
+
+      if(_.indexOf(alloldids,`wscn_${articleInfo.id}`)==-1){
+        artList.push({
+          id:`wscn_${articleInfo.id}`,
+          title:articleInfo.title == "" ? articleInfo.content_text : articleInfo.title,
+          author:articleInfo.author ? articleInfo.author.display_name : "",
+          datetime:articleInfo.display_time,
+          file:`${outdir}/${jsonfname}.json`
+        });  
+      }
     }
 
     weekContent['cc'] = oldList.concat(artList);
 
-    writeJson(`${outdirYear}contents.json`,weekContent);
+    writePackageJsonFile(`${outdirYear}contents.json`,weekContent);
+    //writeJson(`${outdirYear}contents.json`,weekContent);
     //moment().format('YYYYMMDDHHmm');
-    writeJson(`${outdir}/${jsonfname}.json`,data);
+    writePackageJsonFile(`${outdir}/${jsonfname}.json`,data);
     //uploadJson(`${outdir}/${jsonfname}.json`);
     await Deno.writeTextFile("./articles.html", allArchiveText.join("\n"), { append: true });
   }
 }else{
   console.log('upload contents.json');
+  const cthad = Deno.readTextFileSync(`${outdirYear}contents.json`);
+  console.log(cthad.length,"cthad.length");
+  if(cthad){
+    const data = JSON.parse(cthad);
+    oldList = data['cc'];
+  }
+
+  console.log(_.map(oldList, 'id'));
   //uploadJson(`${outdir}/${jsonfname}.json`);
   //uploadJsonCustom(`w${weeknumber[1]}_contents.json`,`${outdirYear}contents.json`);
 }
