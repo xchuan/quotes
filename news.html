@@ -64,8 +64,8 @@
     <main>
       <menu>
         <h3 id="weeknumber">Week -</h3>
-        <ol id="weeklist"></ol>
-        <div id="wlpager"><a onClick="prevPage()">&lt;</a>&nbsp;<a onClick="nextPage()">&gt;</a></div>
+        <ul id="weeklist"></ul>
+        <div id="wlpager"><a onClick="prevPage()">&lt;</a>&nbsp;<span id="nowpage">1</span>&nbsp;<a onClick="nextPage()">&gt;</a></div>
       </menu>
       <article>
         <h1>新闻标题</h1>
@@ -92,6 +92,9 @@
         document.getElementById("weeknumber").innerHTML = "Week " + weeknumber
         fetchJson(weeknumber);
       });
+
+      const pagesize = 5;
+      let pagecache = 1;
 
       function getPaginatedItems(items, page, pageSize) {
         var pg = page || 1,
@@ -129,7 +132,7 @@
                 .replaceAll("/", "_"),
             ].join("_");
             allist.push(
-              '<li><a href="/news.html?id=' +
+              '<li>'+((index+1)+pagesize*(pagecache-1))+'.<a href="/news.html?id=' +
                 id +
                 '" target="_self">' +
                 article.title +
@@ -138,8 +141,8 @@
           }
         }
 
-        const pageOne = getPaginatedItems(allist,1,5);
-        totalPage = pageOne.total;
+        const pageOne = getPaginatedItems(allist,1,pagesize);
+        totalPage = pageOne.total_pages;
         wlst.innerHTML = pageOne.data.join("");
       }
 
@@ -147,15 +150,18 @@
       var totalPage = 0;
 
       function nextPageContent(page) {
-        const pageOne = getPaginatedItems(allist,page,5);
-        if(page==0)page=totalPage;
-        if(page>totalPage)page=1;
+
+        if(page==0){page=totalPage;nowPage=page;}
+        if(page>totalPage){page=1;nowPage=1;}
+        pagecache = page;
+
+        const pageOne = getPaginatedItems(allist,page,pagesize);
         document.getElementById("weeklist").innerHTML = pageOne.data.join("");
+        document.getElementById("nowpage").innerHTML = page;
       }
 
       function nextPage(){
         nowPage++;
-        
         nextPageContent(nowPage)
       }
       function prevPage(){
