@@ -93,6 +93,44 @@
         fetchJson(weeknumber);
       });
 
+      let articleurl = ""
+
+      window.addEventListener('hashchange', function(e){
+        console.log('changed',location.hash);
+        const allhash = location.hash.replace('#','').split('&');
+        console.log(allhash,'')
+        if(allhash.length>0 && allhash[0]){
+          const endpath = allhash[0].split('_');
+          articleurl = "https://img.xfiled.one/nchome/"+endpath[3]+".json"
+          const articleId = Number(endpath[0].replace('id=',''));
+          console.log(articleurl,articleId,'')
+          if(articleurl && articleId){
+            fetchArticle(articleurl,articleId);
+          }
+        }
+        
+      })
+
+      async function fetchArticle(url,aid) {
+        const response = await fetch(url);
+        const adata = await response.json();
+        console.log(adata,aid,'')
+        
+        const nowa = _.filter(adata.items, { 'id':aid });
+        console.log(nowa,'')
+        if(nowa.length>0){
+          const articleDetails = nowa[0];
+          $('article > h1').html(articleDetails.title);
+          $('article > .content_lines').html(articleDetails.content_text);
+          $('article > .content_ref > ul > li:nth-child(1)').html(articleDetails.display_time);
+          $('article > .content_ref > ul > li:nth-child(2)').html(articleDetails.display_location);
+          $('article > .content_ref > ul > li:nth-child(3)').html(articleDetails.keywords);
+          $('article > .content_ref > ul > li:nth-child(4)').html(articleDetails.reason);
+          $('article > .content_ref > ul > li:nth-child(5)').html(articleDetails.actors);
+          $('article > .content_ref > ul > li:nth-child(6)').html(articleDetails.process);
+        }
+      }
+
       const pagesize = 5;
       let pagecache = 1;
 
@@ -132,7 +170,7 @@
                 .replaceAll("/", "_"),
             ].join("_");
             allist.push(
-              '<li>'+((index+1)+pagesize*(pagecache-1))+'.<a href="/news.html?id=' +
+              '<li>'+((index+1)+pagesize*(pagecache-1))+'.<a href="/news.html#id=' +
                 id +
                 '" target="_self">' +
                 article.title +
