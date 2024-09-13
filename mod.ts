@@ -13,18 +13,18 @@ const accessKey = env["ACCESS_KEY"];
 const secretKey = env["SECRET_KEY"];
 const endPoint = env["END_POINT"];
 const endPointPort = env["END_POINT_PORT"];
-const NEWS_API = env["NEWS_API_ONE"];
+const NEWS_API_ONE = env["NEWS_API_ONE"];
+
+const minioClient = new Minio.Client({
+  endPoint: endPoint,
+  port: Number(endPointPort),
+  useSSL: true,
+  accessKey: accessKey,
+  secretKey: secretKey,
+})
 
 const getBuckets = async() =>{
   try {
-    const minioClient = new Minio.Client({
-      endPoint: endPoint,
-      port: Number(endPointPort),
-      useSSL: true,
-      accessKey: accessKey,
-      secretKey: secretKey,
-    })
-
     const buckets = await minioClient.listBuckets();
     //minioClient.fPutObject
     console.log('Success', buckets)
@@ -75,7 +75,8 @@ let oldList:ArticleContent[] = [];
 
 
 if(!fileExists){
-  const response = await fetch(Deno.env.get("NEWS_API_ONE") as string);
+  //const response = await fetch(Deno.env.get("NEWS_API_ONE") as string);
+  const response = await fetch(NEWS_API_ONE);
   const { data }: IResponse = await response.json();
   const articles = data.items;
   const weekContent = {}
@@ -125,7 +126,7 @@ if(!fileExists){
     //writeJson(`${outdirYear}contents.json`,weekContent);
     //moment().format('YYYYMMDDHHmm');
     writePackageJsonFile(`${outdir}/${jsonfname}.json`,data);
-    //uploadJson(`${outdir}/${jsonfname}.json`);
+    uploadJson(`${outdir}/${jsonfname}.json`);
     await Deno.writeTextFile("./articles.html", allArchiveText.join("\n"), { append: true });
   }
 }else{
@@ -138,8 +139,8 @@ if(!fileExists){
 
   console.log(_.map(oldList, 'id').length);
   
-  //uploadJson(`${outdir}/${jsonfname}.json`);
-  //uploadJsonCustom(`w${weeknumber[1]}_contents.json`,`${outdirYear}contents.json`);
+  uploadJson(`${outdir}/${jsonfname}.json`);
+  uploadJsonCustom(`w${weeknumber[1]}_contents.json`,`${outdirYear}contents.json`);
 }
 
 //getBuckets();
