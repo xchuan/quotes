@@ -9,13 +9,11 @@ import "lodash/lodash.js";
 
 const _ = (self as any)._;
 const env = await load();
-const accessKey = env["ACCESS_KEY"];
-const secretKey = env["SECRET_KEY"];
-const endPoint = env["END_POINT"];
-const endPointPort = env["END_POINT_PORT"];
-const NEWS_API_ONE = env["NEWS_API_ONE"];
-
-console.log(env,Deno.env.get("END_POINT"))
+const accessKey = env["ACCESS_KEY"] ?? Deno.env.get("ACCESS_KEY");
+const secretKey = env["SECRET_KEY"] ?? Deno.env.get("SECRET_KEY");
+const endPoint = env["END_POINT"] ?? Deno.env.get("END_POINT");
+const endPointPort = env["END_POINT_PORT"] ?? Deno.env.get("END_POINT_PORT");
+const NEWS_API_ONE = env["NEWS_API_ONE"] ?? Deno.env.get("NEWS_API_ONE");
 
 const minioClient = new Minio.Client({
   endPoint: endPoint,
