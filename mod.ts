@@ -15,21 +15,21 @@ const endPoint = env["END_POINT"];
 const endPointPort = env["END_POINT_PORT"];
 const NEWS_API = env["NEWS_API_ONE"];
 
-const minioClient = new Minio.Client({
-  endPoint: endPoint,
-  port: Number(endPointPort),
-  useSSL: true,
-  accessKey: accessKey,
-  secretKey: secretKey,
-})
-
 const getBuckets = async() =>{
   try {
+    const minioClient = new Minio.Client({
+      endPoint: endPoint,
+      port: Number(endPointPort),
+      useSSL: true,
+      accessKey: accessKey,
+      secretKey: secretKey,
+    })
+
     const buckets = await minioClient.listBuckets();
     //minioClient.fPutObject
     console.log('Success', buckets)
   } catch (err) {
-    console.log(err.message)
+    console.log(endPoint,err.message)
   }
 }
 
