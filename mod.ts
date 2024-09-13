@@ -15,6 +15,8 @@ const endPoint = env["END_POINT"];
 const endPointPort = env["END_POINT_PORT"];
 const NEWS_API_ONE = env["NEWS_API_ONE"];
 
+console.log(env,Deno.env.get("END_POINT"))
+
 const minioClient = new Minio.Client({
   endPoint: endPoint,
   port: Number(endPointPort),
