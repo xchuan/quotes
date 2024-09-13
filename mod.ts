@@ -75,7 +75,7 @@ let oldList:ArticleContent[] = [];
 
 
 if(!fileExists){
-  const response = await fetch(NEWS_API);
+  const response = await fetch(Deno.env.get("NEWS_API_ONE") as string);
   const { data }: IResponse = await response.json();
   const articles = data.items;
   const weekContent = {}
