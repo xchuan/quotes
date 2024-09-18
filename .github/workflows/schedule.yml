@@ -18,12 +18,17 @@ jobs:
       - name: Run deno
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
+          END_POINT: ${{ vars.END_POINT }}
+          END_POINT_PORT: ${{ vars.END_POINT_PORT }}
+          NEWS_API_ONE: ${{ vars.NEWS_API_ONE }}
         run: |
           git config --local user.email "xchuan@gmail.com"
           git config --local user.name "Chuan"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}@github.com/${{ github.repository }}
           git pull
-          deno run --unstable --allow-net --allow-read --allow-write --import-map=import_map.json mod.ts
+          deno run --unstable --allow-net --allow-env --allow-read --allow-write --import-map=import_map.json mod.ts
           git add .
           git commit -m "update by github action"
           git push
