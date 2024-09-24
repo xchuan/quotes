@@ -1,90 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Motivational Quotes - 励志名言</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://unpkg.com/htmx.org@2.0.2"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
-</head>
-<body>
-  <header></header>
-  <main>
-    <div class="quotation"></div><div class="quotation qtwo"></div>
-    <h3 id="quotation_text"></h3>
-    <div class="breakline"></div>
-    <h5 id="quotation_linetwo"></h5>
-    <div id="author"></div>
-    <div id="signature" class="author"></div>
-  </main>
-  <footer>
-    <div id="copyright" class="center"></div>
-    <div class="pager"><a id="prev" class="prev"></a><a id="next" class="next"></a></div>
-  </footer>
-  <script>
-    let data,counter=0,maxlength=0;
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    // JavaScript fetch example
-    document.addEventListener('DOMContentLoaded', function() {
-      
-      const prev = document.getElementById('prev');
-      prev.addEventListener('click', showQuote);
-      const next = document.getElementById('next');
-      next.addEventListener('click', showQuote);
-      
-      const m = urlParams.get('m');
-      
-      if(m!==undefined && m){
-        fetchJsonTwo(m);
-      }else{
-        fetchJson();
-      }
-    });
-    async function fetchJson() {
-        const response = await fetch('/quotes1.json');
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motivational Quotes - 励志名言</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/htmx.org@2.0.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="quotation"></div>
+      <div class="quotation qtwo"></div>
+      <h3 id="quotation_text"></h3>
+      <div class="breakline"></div>
+      <h5 id="quotation_linetwo"></h5>
+      <div id="author"></div>
+      <div id="signature" class="author"></div>
+    </main>
+    <footer>
+      <div id="copyright" class="center"></div>
+      <div class="pager">
+        <a id="prev" class="prev"></a><a id="next" class="next"></a>
+      </div>
+    </footer>
+    <script>
+      let data,
+        counter = 0,
+        maxlength = 0;
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      // JavaScript fetch example
+      document.addEventListener("DOMContentLoaded", function () {
+        const prev = document.getElementById("prev");
+        prev.addEventListener("click", showQuote);
+        const next = document.getElementById("next");
+        next.addEventListener("click", showQuote);
+
+        const m = urlParams.get("m");
+
+        if (m !== undefined && m) {
+          fetchJsonTwo(m);
+        } else {
+          fetchJson();
+        }
+      });
+      async function fetchJson() {
+        const response = await fetch("/quotes1.json");
         data = await response.json();
         maxlength = data["data"] ? data["data"].length : 0;
         cc = data["copyright"] ? data["copyright"] : "&copy; 2024";
-        document.getElementById('copyright').innerHTML = cc;
-        if(maxlength>0)
-        nextQuote(_.random(0, maxlength-1))
-    }
-
-    async function fetchJsonTwo(number) {
-        const response = await fetch('https://quotes.xchuan.workers.dev/go?no='+number);
-        data = await response.json();
-        document.getElementById('quotation_text').textContent = data.chinese;
-        document.getElementById('quotation_linetwo').textContent = data.english ?? "";
-        document.getElementById('author').textContent = data.author;
-        document.getElementById('signature').style.display = data.show_signature ? "block" : "none";
-    }
-
-    const nextQuote = (now) => {
-      let nowQ = data["data"][now];
-      if(nowQ){
-        document.getElementById('quotation_text').textContent = nowQ.quote;
-        document.getElementById('quotation_linetwo').textContent = nowQ.line_two ?? "";
-        document.getElementById('author').textContent = nowQ.author;
-        document.getElementById('signature').style.display = nowQ.show_signature ? "block" : "none";
+        document.getElementById("copyright").innerHTML = cc;
+        if (maxlength > 0) nextQuote(_.random(0, maxlength - 1));
       }
-    }
 
-    const showQuote = ()=>{
-      counter++;
-      if(counter==maxlength)counter=0;
-      nextQuote(counter);
-    }
-</script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PK623T9N8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      async function fetchJsonTwo(number) {
+        const response = await fetch(
+          "https://quotes.xchuan.workers.dev/go?no=" + number
+        );
+        data = await response.json();
+        document.getElementById("quotation_text").textContent = data.chinese;
+        document.getElementById("quotation_linetwo").textContent =
+          data.english ?? "";
+        document.getElementById("author").textContent = data.author;
+        document.getElementById("signature").style.display = data.show_signature
+          ? "block"
+          : "none";
+      }
 
-  gtag('config', 'G-9PK623T9N8');
-</script>
-</body>
+      const nextQuote = (now) => {
+        let nowQ = data["data"][now];
+        if (nowQ) {
+          document.getElementById("quotation_text").textContent = nowQ.quote;
+          document.getElementById("quotation_linetwo").textContent =
+            nowQ.line_two ?? "";
+          document.getElementById("author").textContent = nowQ.author;
+          document.getElementById("signature").style.display =
+            nowQ.show_signature ? "block" : "none";
+        }
+      };
+
+      const showQuote = () => {
+        counter++;
+        if (counter == maxlength) counter = 0;
+        nextQuote(counter);
+      };
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-9PK623T9N8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-9PK623T9N8");
+    </script>
+    <script defer src="https://counter.xs-table.com/script.js" data-website-id="c02e1743-7834-42e6-8054-9a9040b2d795"></script>
+  </body>
 </html>
