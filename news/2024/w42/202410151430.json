@@ -1,0 +1,976 @@
+{
+  "items": [
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/bc3971d4-2d62-4d54-b1dd-7058c60c6ffa",
+        "display_name": "罗俊",
+        "id": 694840,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/694840"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "us-stock-channel",
+        "hk-stock-channel",
+        "a-stock-channel",
+        "xgb-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>纳斯达克金龙中国指数跌幅扩大至4.4%，刷新日低。热门中概股里，京东目前跌7.2%，百胜中国、B站、阿里巴巴跌约4%，理想跌3.7%，百度跌3%，小鹏跌2.9%，蔚来跌2.5%，网易跌1.2%。</p>\n\n<p>此外，拼多多跌5.1%，腾讯跌3.6%，极氪跌2.8。</p>\n",
+      "content_more": "",
+      "content_text": "纳斯达克金龙中国指数跌幅扩大至4.4%，刷新日低。热门中概股里，京东目前跌7.2%，百胜中国、B站、阿里巴巴跌约4%，理想跌3.7%，百度跌3%，小鹏跌2.9%，蔚来跌2.5%，网易跌1.2%。\n\n此外，拼多多跌5.1%，腾讯跌3.6%，极氪跌2.8。",
+      "cover_images": [],
+      "display_time": 1729002565,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801207,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "中概指数重新跌超4%，京东跌超7%",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801207"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/79d8b1a3-363b-49d9-a0d0-355ab0ff7d0a",
+        "display_name": "姜超",
+        "id": 120000004626,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000004626"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "a-stock-channel",
+        "commodity-channel",
+        "xgb-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>据河南省农业农村厅消息，截至10月15日，河南全省秋播腾茬面积9815万亩、整地6490万亩，小麦已播1337万亩，占预计面积的15.7%。河南省地市麦播进度：鹤壁过五成，安阳过四成，郑州、三门峡、新乡过三成，洛阳、商丘过两成。（央视新闻）</p>\n",
+      "content_more": "",
+      "content_text": "据河南省农业农村厅消息，截至10月15日，河南全省秋播腾茬面积9815万亩、整地6490万亩，小麦已播1337万亩，占预计面积的15.7%。河南省地市麦播进度：鹤壁过五成，安阳过四成，郑州、三门峡、新乡过三成，洛阳、商丘过两成。（央视新闻）",
+      "cover_images": [],
+      "display_time": 1729002429,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801206,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "河南省秋播腾茬9815万亩，麦播已超15%",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801206"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/bc3971d4-2d62-4d54-b1dd-7058c60c6ffa",
+        "display_name": "罗俊",
+        "id": 694840,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/694840"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "goldc-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>现货白银日内涨幅达1.5%，报31.66美元/盎司。</p>\n\n<p>COMEX白银期货日内涨幅达1.5%，报31.8美元/盎司。</p>\n",
+      "content_more": "",
+      "content_text": "现货白银日内涨幅达1.5%，报31.66美元/盎司。\n\nCOMEX白银期货日内涨幅达1.5%，报31.8美元/盎司。",
+      "cover_images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/7c179d44-43b3-47fe-a2ca-0e0613d4388f.png",
+          "height": 677,
+          "width": 1010,
+          "size": 44790
+        }
+      ],
+      "display_time": 1729002262,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801205,
+      "images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/7c179d44-43b3-47fe-a2ca-0e0613d4388f.png",
+          "height": 677,
+          "width": 1010,
+          "size": 44790
+        }
+      ],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "白银价格涨幅扩大至1.5%",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801205"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/bc3971d4-2d62-4d54-b1dd-7058c60c6ffa",
+        "display_name": "罗俊",
+        "id": 694840,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/694840"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "a-stock-channel",
+        "xgb-channel",
+        "us-stock-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>BigBear.ai目前跌超9.3%，阿里ADR跌约3.7%，腾讯ADR和英伟达跌约3.6%，百度ADR跌超2.4%，CrowdStrike跌超1.5%，特斯拉、谷歌A、惠与则至多涨超1.3%，苹果维持大约2%的涨幅，SoundHound涨3.5%，Lumen科技涨4.1%。</p>\n",
+      "content_more": "",
+      "content_text": "BigBear.ai目前跌超9.3%，阿里ADR跌约3.7%，腾讯ADR和英伟达跌约3.6%，百度ADR跌超2.4%，CrowdStrike跌超1.5%，特斯拉、谷歌A、惠与则至多涨超1.3%，苹果维持大约2%的涨幅，SoundHound涨3.5%，Lumen科技涨4.1%。",
+      "cover_images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/5d050d04-51cd-47f1-a286-e2205eb33e38.png",
+          "height": 816,
+          "width": 799,
+          "size": 116333
+        },
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/96a17f16-332e-4602-9c44-02eb61027c91.png",
+          "height": 816,
+          "width": 799,
+          "size": 116333
+        }
+      ],
+      "display_time": 1729002239,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801204,
+      "images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/5d050d04-51cd-47f1-a286-e2205eb33e38.png",
+          "height": 816,
+          "width": 799,
+          "size": 116333
+        },
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/96a17f16-332e-4602-9c44-02eb61027c91.png",
+          "height": 814,
+          "width": 800,
+          "size": 119084
+        }
+      ],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "人工智能（AI）概念股美股盘初多数下跌",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801204"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/79d8b1a3-363b-49d9-a0d0-355ab0ff7d0a",
+        "display_name": "姜超",
+        "id": 120000004626,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000004626"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "forex-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>二十国集团（G20）智库论坛“全球治理与中巴合作”国际研讨会14日在巴西里约热内卢举行。来自中巴两国的百余名专家、学者、企业家围绕“多边主义与全球治理”“可持续发展与创新驱动”“面向未来的中巴合作”等议题展开深入研讨交流。（央视新闻）</p>\n",
+      "content_more": "",
+      "content_text": "二十国集团（G20）智库论坛“全球治理与中巴合作”国际研讨会14日在巴西里约热内卢举行。来自中巴两国的百余名专家、学者、企业家围绕“多边主义与全球治理”“可持续发展与创新驱动”“面向未来的中巴合作”等议题展开深入研讨交流。（央视新闻）",
+      "cover_images": [],
+      "display_time": 1729001873,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801203,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "G20智库论坛“全球治理与中巴合作”国际研讨会在巴西举行",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801203"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/79d8b1a3-363b-49d9-a0d0-355ab0ff7d0a",
+        "display_name": "姜超",
+        "id": 120000004626,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000004626"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "a-stock-channel",
+        "us-stock-channel",
+        "hk-stock-channel",
+        "xgb-channel",
+        "financing-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>上海临港新片区私募基金管理有限公司投资经理孙勇在国际金融中心与国际科创中心联动发展论坛上表示，当前在半导体赛道的投资焦点包括人工智能和智能新能源汽车等。人工智能方面，孙勇表示，2022年至今，大模型带动算力需求爆发，而算力被普遍认为是人工智能的基础设施，因此应围绕计算、存储、网络等方面进行投资布局。智能新能源汽车方面，孙勇表示，自主品牌智能电动汽车销量高速增长，国产汽车芯片出现巨大市场机遇，应关注沟槽型SiC MOS、车载数模混合类芯片、高性能MCU、智驾芯片等。（上证报）</p>\n",
+      "content_more": "",
+      "content_text": "上海临港新片区私募基金管理有限公司投资经理孙勇在国际金融中心与国际科创中心联动发展论坛上表示，当前在半导体赛道的投资焦点包括人工智能和智能新能源汽车等。人工智能方面，孙勇表示，2022年至今，大模型带动算力需求爆发，而算力被普遍认为是人工智能的基础设施，因此应围绕计算、存储、网络等方面进行投资布局。智能新能源汽车方面，孙勇表示，自主品牌智能电动汽车销量高速增长，国产汽车芯片出现巨大市场机遇，应关注沟槽型SiC MOS、车载数模混合类芯片、高性能MCU、智驾芯片等。（上证报）",
+      "cover_images": [],
+      "display_time": 1729001786,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801202,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "上海临港新片区私募基金管理有限公司孙勇：半导体赛道的投资焦点包括人工智能和智能新能源汽车",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801202"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/bc3971d4-2d62-4d54-b1dd-7058c60c6ffa",
+        "display_name": "罗俊",
+        "id": 694840,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/694840"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "a-stock-channel",
+        "xgb-channel",
+        "us-stock-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>Wolfspeed涨超29.2%，领跑一众芯片股。英特尔、台积电ADR、半导体ETF、超微电脑则至多跌约1.3%，美光科技跌约1.4%，英伟达跌3.1%——10月14日创历史新高后投资者获利了结，AMD跌3.7%，Arm控股跌5.1%。目前，费城半导体指数跌超1.2%。</p>\n",
+      "content_more": "",
+      "content_text": "Wolfspeed涨超29.2%，领跑一众芯片股。英特尔、台积电ADR、半导体ETF、超微电脑则至多跌约1.3%，美光科技跌约1.4%，英伟达跌3.1%——10月14日创历史新高后投资者获利了结，AMD跌3.7%，Arm控股跌5.1%。目前，费城半导体指数跌超1.2%。",
+      "cover_images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/f3672c72-bf3e-4ef0-821f-8cb6fb9d1b40.png",
+          "height": 820,
+          "width": 797,
+          "size": 117588
+        },
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/ff427c59-ab48-47ec-9c2c-7d56554ded5c.png",
+          "height": 820,
+          "width": 797,
+          "size": 117588
+        }
+      ],
+      "display_time": 1729001724,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801201,
+      "images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/f3672c72-bf3e-4ef0-821f-8cb6fb9d1b40.png",
+          "height": 820,
+          "width": 797,
+          "size": 117588
+        },
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/ff427c59-ab48-47ec-9c2c-7d56554ded5c.png",
+          "height": 818,
+          "width": 802,
+          "size": 123249
+        }
+      ],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "芯片股Wolfspeed美股盘初涨超29%，英伟达跌超3%脱离历史最高位",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801201"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/bc3971d4-2d62-4d54-b1dd-7058c60c6ffa",
+        "display_name": "罗俊",
+        "id": 694840,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/694840"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "us-stock-channel",
+        "commodity-channel",
+        "a-stock-channel",
+        "xgb-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>美国（政府）与三家公司开会，讨论关于收购钴生产商Chemaf的相关事宜。（华尔街日报）</p>\n",
+      "content_more": "",
+      "content_text": "美国（政府）与三家公司开会，讨论关于收购钴生产商Chemaf的相关事宜。（华尔街日报）",
+      "cover_images": [],
+      "display_time": 1729001540,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801200,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801200"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/bc3971d4-2d62-4d54-b1dd-7058c60c6ffa",
+        "display_name": "罗俊",
+        "id": 694840,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/694840"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "us-stock-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>据美国纽约联储数据，上个交易日（10月11日）担保隔夜融资利率（SOFR）报4.81%，之前一天报4.82%。</p>\n\n<p>上个交易日有效的联邦基金利率报4.83%，之前一天报4.83%。</p>\n",
+      "content_more": "<p>注：周一（10月14日），美国债券市场休市，美联储没有按惯例披露相关“日报”数据。</p>\n",
+      "content_text": "据美国纽约联储数据，上个交易日（10月11日）担保隔夜融资利率（SOFR）报4.81%，之前一天报4.82%。\n\n上个交易日有效的联邦基金利率报4.83%，之前一天报4.83%。",
+      "cover_images": [],
+      "display_time": 1729001468,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801199,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801199"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/79d8b1a3-363b-49d9-a0d0-355ab0ff7d0a",
+        "display_name": "姜超",
+        "id": 120000004626,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000004626"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "oil-channel",
+        "commodity-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>以色列南部城市阿什杜德附近15日发生枪击事件，一名警察死亡，4人受伤。枪击当天上午发生在一条连接阿什杜德和特拉维夫的高速公路。警方说，一名枪手首先向一名警察开枪，继而向其他人开火。警方把这起枪击定性为恐怖袭击。尚不清楚枪手身份。（新华社）</p>\n",
+      "content_more": "",
+      "content_text": "以色列南部城市阿什杜德附近15日发生枪击事件，一名警察死亡，4人受伤。枪击当天上午发生在一条连接阿什杜德和特拉维夫的高速公路。警方说，一名枪手首先向一名警察开枪，继而向其他人开火。警方把这起枪击定性为恐怖袭击。尚不清楚枪手身份。（新华社）",
+      "cover_images": [],
+      "display_time": 1729001402,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801198,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "以色列枪击事件致5人死伤",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801198"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/bc3971d4-2d62-4d54-b1dd-7058c60c6ffa",
+        "display_name": "罗俊",
+        "id": 694840,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/694840"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "us-stock-channel",
+        "a-stock-channel",
+        "xgb-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>苹果公司（AAPL）上涨超过2.6%，报237.49美元，突破7月15日所创盘中历史最高位236.96美元。美股“七姐妹”（Seven Significant）中，除了苹果之外，谷歌A目前涨约1.6%，特斯拉涨约0.9%，微软涨超0.3%，亚马逊涨约0.2%，扎克伯格旗下“元宇宙公司”Meta Platforms则跌超0.7%，英伟达跌超1.6%。</p>\n",
+      "content_more": "",
+      "content_text": "苹果公司（AAPL）上涨超过2.6%，报237.49美元，突破7月15日所创盘中历史最高位236.96美元。美股“七姐妹”（Seven Significant）中，除了苹果之外，谷歌A目前涨约1.6%，特斯拉涨约0.9%，微软涨超0.3%，亚马逊涨约0.2%，扎克伯格旗下“元宇宙公司”Meta Platforms则跌超0.7%，英伟达跌超1.6%。",
+      "cover_images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/21491b62-6434-4c8c-8596-20446b9cec27.png",
+          "height": 780,
+          "width": 811,
+          "size": 109205
+        },
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/a46196c6-d1d5-4a85-8eaa-0b5e45247400.png",
+          "height": 780,
+          "width": 811,
+          "size": 109205
+        }
+      ],
+      "display_time": 1729001232,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801197,
+      "images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/21491b62-6434-4c8c-8596-20446b9cec27.png",
+          "height": 780,
+          "width": 811,
+          "size": 109205
+        },
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/a46196c6-d1d5-4a85-8eaa-0b5e45247400.png",
+          "height": 776,
+          "width": 801,
+          "size": 108616
+        }
+      ],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "苹果股价创盘中历史新高，领跑“七姐妹”",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801197"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/79d8b1a3-363b-49d9-a0d0-355ab0ff7d0a",
+        "display_name": "姜超",
+        "id": 120000004626,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000004626"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "a-stock-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p><a href=\"http://cacs.mofcom.gov.cn/article/ajycs/ckys/202410/182131.html\" rel=\"nofollow\">中国贸易救济信息网</a>消息，9月27日，土耳其贸易部发布第2024/29号公告，对原产于中国的27类长丝（合成纤维长丝纱线的机织物）和合成及人造短纤维织物自主启动反倾销复审调查，重新审查2024年2月20日第2024/8号公告确定的反倾销措施；同时，决定在调查期间对豁免反倾销税的意大利企业Tessitura Uboldi Luigi S.R.L.征收保证金。案件调查期间，现行反倾销税持续有效。公告自发布之日起生效。</p>\n",
+      "content_more": "",
+      "content_text": "中国贸易救济信息网消息，9月27日，土耳其贸易部发布第2024/29号公告，对原产于中国的27类长丝（合成纤维长丝纱线的机织物）和合成及人造短纤维织物自主启动反倾销复审调查，重新审查2024年2月20日第2024/8号公告确定的反倾销措施；同时，决定在调查期间对豁免反倾销税的意大利企业Tessitura Uboldi Luigi S.R.L.征收保证金。案件调查期间，现行反倾销税持续有效。公告自发布之日起生效。",
+      "cover_images": [],
+      "display_time": 1729001184,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801196,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "土耳其对华27类长丝和合成及人造短纤维织物启动反倾销复审调查",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801196"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/79d8b1a3-363b-49d9-a0d0-355ab0ff7d0a",
+        "display_name": "姜超",
+        "id": 120000004626,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000004626"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>当地时间10月15日，日本关西电力公司停止了福井县美滨核电站3号机组反应堆的运行。关西电力公司5日确认到反应堆周边设备的冷却管道上有两处出现盐分析出，10日发现管道上存在小孔，部分管壁变薄。为此，关西电力公司于10日宣布，将手动停止该机组反应堆运行。关西电力公司计划对相关原因展开调查，并更换出现问题的管道。（央视新闻）</p>\n",
+      "content_more": "",
+      "content_text": "当地时间10月15日，日本关西电力公司停止了福井县美滨核电站3号机组反应堆的运行。关西电力公司5日确认到反应堆周边设备的冷却管道上有两处出现盐分析出，10日发现管道上存在小孔，部分管壁变薄。为此，关西电力公司于10日宣布，将手动停止该机组反应堆运行。关西电力公司计划对相关原因展开调查，并更换出现问题的管道。（央视新闻）",
+      "cover_images": [],
+      "display_time": 1729001113,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801195,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "日本美滨核电站3号机组反应堆停止运行",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801195"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/79d8b1a3-363b-49d9-a0d0-355ab0ff7d0a",
+        "display_name": "姜超",
+        "id": 120000004626,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000004626"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "commodity-channel",
+        "oil-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>当地时间10月15日，黎巴嫩真主党副总书记纳伊姆·卡西姆发表视频讲话。他表示，以色列及其背后支持者正在“进行屠杀”，真主党必须表明立场。卡西姆表示，已故的真主党前领导人纳斯鲁拉并未离开，他的命令依然有效，真主党会击败敌人并将敌人连根拔起。真主党已经恢复了实力，恢复了领导层，每个关键职位都有接替者。卡西姆谴责说，以军的目的是通过打击领导层和军事基地让真主党失去抵抗和建立新的黎巴嫩的能力。以军还伤害了联合国驻黎巴嫩临时部队的人员。他呼吁国际社会采取行动。（央视新闻）</p>\n",
+      "content_more": "",
+      "content_text": "当地时间10月15日，黎巴嫩真主党副总书记纳伊姆·卡西姆发表视频讲话。他表示，以色列及其背后支持者正在“进行屠杀”，真主党必须表明立场。卡西姆表示，已故的真主党前领导人纳斯鲁拉并未离开，他的命令依然有效，真主党会击败敌人并将敌人连根拔起。真主党已经恢复了实力，恢复了领导层，每个关键职位都有接替者。卡西姆谴责说，以军的目的是通过打击领导层和军事基地让真主党失去抵抗和建立新的黎巴嫩的能力。以军还伤害了联合国驻黎巴嫩临时部队的人员。他呼吁国际社会采取行动。（央视新闻）",
+      "cover_images": [],
+      "display_time": 1729000861,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801192,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "黎巴嫩真主党副总书记：真主党会击败敌人并将敌人连根拔起",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801192"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/bc3971d4-2d62-4d54-b1dd-7058c60c6ffa",
+        "display_name": "罗俊",
+        "id": 694840,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/694840"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "us-stock-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>礼来制药将尝试利用减肥药来帮助英国应对失业问题的可行性。</p>\n\n<p>礼来与Zepbound宣布了这一计划，将耗资2.79亿英镑（折合3.64亿美元）帮助解决英国（就业市场）所面临的严峻的健康挑战。</p>\n",
+      "content_more": "",
+      "content_text": "礼来制药将尝试利用减肥药来帮助英国应对失业问题的可行性。\n\n礼来与Zepbound宣布了这一计划，将耗资2.79亿英镑（折合3.64亿美元）帮助解决英国（就业市场）所面临的严峻的健康挑战。",
+      "cover_images": [],
+      "display_time": 1729000819,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801191,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801191"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/714916ad-9609-4245-94b4-dfe9518a63c3",
+        "display_name": "万小婷",
+        "id": 120000003969,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000003969"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "commodity-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>比特币日内涨近2%，现报67111美元/枚，创7月以来最高水平。</p>\n",
+      "content_more": "",
+      "content_text": "比特币日内涨近2%，现报67111美元/枚，创7月以来最高水平。",
+      "cover_images": [],
+      "display_time": 1729000315,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801190,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801190"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/ivanka_avatar_7.png",
+        "display_name": "葛冬瑾",
+        "id": 120000004519,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000004519"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "forex-channel",
+        "a-stock-channel",
+        "xgb-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>据也门胡塞武装消息，当地时间15日下午，美英对胡塞武装控制下的荷台达省北部拉海亚地区进行了四次空袭。（央视新闻）</p>\n",
+      "content_more": "",
+      "content_text": "据也门胡塞武装消息，当地时间15日下午，美英对胡塞武装控制下的荷台达省北部拉海亚地区进行了四次空袭。（央视新闻）",
+      "cover_images": [],
+      "display_time": 1729000105,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801189,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "美英空袭也门荷台达省",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801189"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/ivanka_avatar_7.png",
+        "display_name": "葛冬瑾",
+        "id": 120000004519,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000004519"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "a-stock-channel",
+        "us-stock-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>美股盘初，主要行业ETF涨跌不一，全球航空业ETF涨近1%，可选消费ETF、公用事业ETF涨幅居前。</p>\n",
+      "content_more": "",
+      "content_text": "美股盘初，主要行业ETF涨跌不一，全球航空业ETF涨近1%，可选消费ETF、公用事业ETF涨幅居前。",
+      "cover_images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/cf7d807f-3b58-4483-8bef-d9486a677e3e.png",
+          "height": 598,
+          "width": 419,
+          "size": 45860
+        }
+      ],
+      "display_time": 1728999812,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801188,
+      "images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/cf7d807f-3b58-4483-8bef-d9486a677e3e.png",
+          "height": 598,
+          "width": 419,
+          "size": 45860
+        }
+      ],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801188"
+    },
+    {
+      "article": {
+        "id": 3730386,
+        "image": {
+          "uri": "https://wpimg-wscn.awtmt.com/9a4b7868-c9e7-496e-bf10-fb86a12925a7.png",
+          "height": 633,
+          "width": 924,
+          "size": 695379
+        },
+        "platforms": [
+          "wscn-platform"
+        ],
+        "title": "美股盘初银行股普涨，高盛股价创新高，中概股普跌，富时中国A50短线拉升，WTI原油大跌5%",
+        "uri": "https://wallstreetcn.com/articles/3730386"
+      },
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/714916ad-9609-4245-94b4-dfe9518a63c3",
+        "display_name": "万小婷",
+        "id": 120000003969,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000003969"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "us-stock-channel",
+        "a-stock-channel",
+        "xgb-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>道指跌0.2%，标普500指数涨0.1%，纳指涨0.1%。</p>\n\n<p>中概股普跌，京东跌约6%，哔哩哔哩跌约5%，携程跌约4%，阿里巴巴、拼多多跌约3%。</p>\n\n<p>国际油价一度跌逾5%，石油股普跌，道达尔跌约4%，英国石油跌约4%，帝国石油跌约3%。</p>\n\n<p>银行股普涨，高盛涨3.4%，创纪录新高，交易和投资业务推动，公司三季度利润、收入双双超预期。</p>\n\n<p>花旗集团涨约1%，公司市场部门第三季度创出至少十年来最佳业绩表现。</p>\n\n<p>美国银行涨3.5%，至7月19日以来最高水平，公司第三季度净利息收入符合预期。</p>\n\n<p>嘉信理财涨约7%，公司三季度净营收和调整后每股收益高于市场预估。</p>\n\n<p>特朗普概念股走高，PHUNWARE涨逾15%，特朗普媒体科技集团涨逾5%。</p>\n\n<p>联合健康跌逾9%，公司下调全财年调整后每股收益预估。</p>\n",
+      "content_more": "",
+      "content_text": "道指跌0.2%，标普500指数涨0.1%，纳指涨0.1%。\n\n中概股普跌，京东跌约6%，哔哩哔哩跌约5%，携程跌约4%，阿里巴巴、拼多多跌约3%。\n\n国际油价一度跌逾5%，石油股普跌，道达尔跌约4%，英国石油跌约4%，帝国石油跌约3%。\n\n银行股普涨，高盛涨3.4%，创纪录新高，交易和投资业务推动，公司三季度利润、收入双双超预期。\n\n花旗集团涨约1%，公司市场部门第三季度创出至少十年来最佳业绩表现。\n\n美国银行涨3.5%，至7月19日以来最高水平，公司第三季度净利息收入符合预期。\n\n嘉信理财涨约7%，公司三季度净营收和调整后每股收益高于市场预估。\n\n特朗普概念股走高，PHUNWARE涨逾15%，特朗普媒体科技集团涨逾5%。\n\n联合健康跌逾9%，公司下调全财年调整后每股收益预估。",
+      "cover_images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/aab90dd4-7283-45f4-97ce-a899197cd5f8.png",
+          "height": 558,
+          "width": 658,
+          "size": 64568
+        },
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/e2bb616b-d0db-4872-b4a0-7c3e5ea11d46.png",
+          "height": 558,
+          "width": 658,
+          "size": 64568
+        }
+      ],
+      "display_time": 1728999101,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801187,
+      "images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/aab90dd4-7283-45f4-97ce-a899197cd5f8.png",
+          "height": 558,
+          "width": 658,
+          "size": 64568
+        },
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/e2bb616b-d0db-4872-b4a0-7c3e5ea11d46.png",
+          "height": 635,
+          "width": 644,
+          "size": 73440
+        }
+      ],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "美股盘初：中概股、石油股普跌，银行股普涨",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801187"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/ivanka_avatar_6.png",
+        "display_name": "bumblebee",
+        "id": 120000003947,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000003947"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "us-stock-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>标普500指数高开6.89点，涨幅0.12%，报5866.74点；</p>\n\n<p>道琼斯工业平均指数高开174.95点，涨幅0.41%，报43240.17点；</p>\n\n<p>纳斯达克综合指数高开13.29点，涨幅0.07%，报18515.97点。</p>\n",
+      "content_more": "",
+      "content_text": "标普500指数高开6.89点，涨幅0.12%，报5866.74点；\n\n道琼斯工业平均指数高开174.95点，涨幅0.41%，报43240.17点；\n\n纳斯达克综合指数高开13.29点，涨幅0.07%，报18515.97点。",
+      "cover_images": [],
+      "display_time": 1728999038,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 2801186,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/2801186"
+    }
+  ],
+  "next_cursor": "1728999038",
+  "op_cursor": "11003594",
+  "polling_cursor": "2801207"
+}
