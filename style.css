@@ -106,3 +106,8 @@ footer > .pager{
 .pager a.prev{
   transform: scaleX(-1);
 }
+
+#timezone{
+  font-size: 13px;
+  color: #999;
+}

@@ -17,6 +17,7 @@
       <div class="breakline"></div>
       <h5 id="quotation_linetwo"></h5>
       <div id="author"></div>
+      <div id="timezone"></div>
       <div id="signature" class="author"></div>
     </main>
     <footer>
@@ -25,6 +26,12 @@
         <a id="prev" class="prev"></a><a id="next" class="next"></a>
       </div>
     </footer>
+    <script type="module">
+      import { tzCompare } from "https://cdn.xhashao.top/blog/tz-compare.js"
+      //import { tzCompare } from "./js/tz-compare.js"//https://img.xfiled.one/blog/tz-compare.js
+      //document.getElementById("timezone").innerHTML = tzCompare('Bangalore');
+      window.tzCompare = tzCompare;
+    </script>
     <script>
       let data,
         counter = 0,
@@ -64,6 +71,8 @@
         document.getElementById("quotation_linetwo").textContent =
           data.english ?? "";
         document.getElementById("author").textContent = data.author;
+        //console.log(data.city,'data.citydata.citydata.city')
+        document.getElementById("timezone").innerHTML = tzCompare(data.city);
         document.getElementById("signature").style.display = data.show_signature
           ? "block"
           : "none";
@@ -76,6 +85,8 @@
           document.getElementById("quotation_linetwo").textContent =
             nowQ.line_two ?? "";
           document.getElementById("author").textContent = nowQ.author;
+
+          document.getElementById("timezone").innerHTML = tzCompare(nowQ.city);
           document.getElementById("signature").style.display =
             nowQ.show_signature ? "block" : "none";
         }
