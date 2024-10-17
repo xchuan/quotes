@@ -110,16 +110,18 @@
           const endpath = allhash[0].split('_');
           articleurl = apiPath[_env]+"/"+endpath[3]+".json"
           const articleId = Number(endpath[0].replace('id=',''));
-          console.log(articleurl,articleId,'')
+          console.log(endpath,articleurl,articleId,'')
           if(articleurl && articleId){
-            fetchArticle(articleurl,articleId);
+            fetchArticle(articleurl,articleId,endpath);
           }
         }
         
       })
 
-      async function fetchArticle(url,aid) {
-        const response = await fetch(url);
+      async function fetchArticle(url,aid,fullpath) {
+        const realurl = `${apiPath[_env]}/news/${fullpath[1]}/${fullpath[2]}/${fullpath[3]}.json`;
+        console.log(realurl,url,'url real')
+        const response = await fetch(realurl);
         const adata = await response.json();
         console.log(adata,aid,'')
         
@@ -159,7 +161,8 @@
 
       async function fetchJson(wknumber) {
         const response = await fetch(
-          apiPath[_env]+"/w"+wknumber+"_contents.json"
+          //apiPath[_env]+"/w"+wknumber+"_contents.json"
+          apiPath[_env]+"/news/2024/w"+wknumber+"_contents.json"
         );
         data = await response.json();
         
