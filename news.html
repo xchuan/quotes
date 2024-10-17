@@ -11,7 +11,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js"></script><script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js"></script>
+    <script>
       //alert("https://img.xfiled.one/nchome/w36_contents.json")
       //https://img.xfiled.one/nchome/202409031750.json
       //界面参考
@@ -33,6 +34,7 @@
         overflow: hidden;
         display: flex;
         align-items: stretch;
+        height: 100vh;
       }
       menu {
         width: 200px;
@@ -41,6 +43,8 @@
         margin: 0px;
         padding: 0px;
         background-color: rgb(222, 230, 218);
+        display: flex;
+        flex-direction: column;
       }
       #weeklist {
         margin: 0px;
@@ -52,11 +56,27 @@
         background-color: rgb(235, 255, 253);
         flex: 1;
       }
-      #wlpager a{
+      #wlpager a {
         cursor: pointer;
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        user-select: none;
       }
-      #wlpager{
+
+      #wlpager span {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        user-select: none;
+      }
+      #wlpager {
         text-align: center;
+        margin-top: auto;
+        height: 50px;
+        line-height: 50px;
       }
     </style>
   </head>
@@ -65,78 +85,181 @@
       <menu>
         <h3 id="weeknumber">Week -</h3>
         <ul id="weeklist"></ul>
-        <div id="wlpager"><a onClick="prevPage()">&lt;</a>&nbsp;<span id="nowpage">1</span>&nbsp;<a onClick="nextPage()">&gt;</a></div>
+        <div id="wlpager">
+          <a onClick="prevPage()">&lt;</a>&nbsp;<span id="nowpage">1</span
+          >&nbsp;<a onClick="nextPage()">&gt;</a>
+        </div>
       </menu>
       <article>
-        <h1>新闻标题</h1>
-        <div class="content_lines">新闻内容</div>
+        <h1 id="title">新闻标题</h1>
+        <div id="content" class="content_lines">新闻内容</div>
         <div class="content_ref">
           <ul>
-            <li>时间：</li>
-            <li>地点：</li>
+            <li>时间：<span></span></li>
+            <li>地点：<span></span></li>
             <li>关键词：</li>
             <li>原因：</li>
             <li>涉及人物：</li>
             <li>发生过程：</li>
           </ul>
+          <p id="ai-output" style="margin:25px"></p>
+          <button id="search" onclick="startAI()" style="margin-left: 25px;">分析</button>
         </div>
       </article>
     </main>
+    <script type="module">
+      import {
+        tzCompare,
+        tzCompareTime,
+      } from "https://cdn.xhashao.top/blog/tz-compare.js";
+      //document.getElementById("timezone").innerHTML = tzCompare('Bangalore');
+      window.tzCompare = tzCompare;
+      window.tzCompareTime = tzCompareTime;
+    </script>
     <script>
       let data,
         counter = 0,
         maxlength = 0;
 
-      const _env = 'dev';
+      const _env = "dev";
 
       const apiPath = {
-        "dev":"http://localhost:8080",
-        "prod":"https://img.xfiled.one/nchome"
-      }
+        dev: "http://localhost:8080",
+        prod: "https://img.xfiled.one/nchome",
+      };
       // JavaScript fetch example
       document.addEventListener("DOMContentLoaded", function () {
         var weeknumber = moment().week();
-        document.getElementById("weeknumber").innerHTML = "Week " + weeknumber
+        document.getElementById("weeknumber").innerHTML = "Week " + weeknumber;
         fetchJson(weeknumber);
+        const allhash = location.hash.replace("#", "").split("&");
+        loadArticle(allhash);
       });
 
-      let articleurl = ""
+      let articleurl = "";
 
-      window.addEventListener('hashchange', function(e){
-        console.log('changed',location.hash);
-        const allhash = location.hash.replace('#','').split('&');
-        console.log(allhash,'')
-        if(allhash.length>0 && allhash[0]){
-          const endpath = allhash[0].split('_');
-          articleurl = apiPath[_env]+"/"+endpath[3]+".json"
-          const articleId = Number(endpath[0].replace('id=',''));
-          console.log(endpath,articleurl,articleId,'')
-          if(articleurl && articleId){
-            fetchArticle(articleurl,articleId,endpath);
+      window.addEventListener("hashchange", function (e) {
+        console.log("changed", location.hash);
+        const allhash = location.hash.replace("#", "").split("&");
+        document.getElementById("ai-output").innerHTML ="";
+        console.log(allhash, "");
+        if (allhash.length > 0 && allhash[0]) {
+          const endpath = allhash[0].split("_");
+          articleurl = apiPath[_env] + "/" + endpath[3] + ".json";
+          const articleId = Number(endpath[0].replace("id=", ""));
+          console.log(endpath, articleurl, articleId, "");
+          if (articleurl && articleId) {
+            fetchArticle(articleurl, articleId, endpath);
           }
         }
-        
-      })
+      });
 
-      async function fetchArticle(url,aid,fullpath) {
+      function startAI() {
+        const apiUrl = "https://summary.xhashao.top/"; // 这里填写你获得的 API 地址
+        const outputContainer = document.getElementById("ai-output");
+
+        // 测试数据
+        const postTitle = document.getElementById("title").innerText;
+        const postBeforeContent = document.getElementById("content").innerText;
+        const postContent = postBeforeContent
+          .replace(/\n/g, "")
+          .replace(/[ ]+/g, " ")
+          .replace(/<pre>[\s\S]*?<\/pre>/g, "")
+          .substring(0, 1800);
+
+        const evSource = new EventSource(
+          apiUrl + `/?q=${postTitle}，文章内容：${postContent}`
+        );
+        evSource.onmessage = (event) => {
+          if (event.data == "[DONE]") {
+            evSource.close();
+            return;
+          } else {
+            const data = JSON.parse(event.data);
+            outputContainer.textContent += data.response;
+          }
+        };
+      }
+
+      function loadArticle(hashs) {
+        if (hashs.length > 0 && hashs[0]) {
+          const endpath = hashs[0].split("_");
+          articleurl = apiPath[_env] + "/" + endpath[3] + ".json";
+          const articleId = Number(endpath[0].replace("id=", ""));
+          //console.log(endpath,articleurl,articleId,'')
+          if (articleurl && articleId) {
+            fetchArticle(articleurl, articleId, endpath);
+          }
+        }
+      }
+
+      function timestampToTime(timestamp) {
+        var date = new Date(timestamp * 1000); //时间戳为10位需*1000，时间戳为13位的话不需乘1000
+        var Y = date.getFullYear() + "-";
+        var M =
+          (date.getMonth() + 1 < 10
+            ? "0" + (date.getMonth() + 1)
+            : date.getMonth() + 1) + "-";
+        var D =
+          (date.getDate() < 10 ? "0" + date.getDate() : date.getDate()) + " ";
+        var h =
+          (date.getHours() < 10 ? "0" + date.getHours() : date.getHours()) +
+          ":";
+        var m =
+          (date.getMinutes() < 10
+            ? "0" + date.getMinutes()
+            : date.getMinutes()) + ":";
+        var s =
+          date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds();
+        return Y + M + D + h + m + s;
+      }
+
+      async function fetchArticle(url, aid, fullpath) {
         const realurl = `${apiPath[_env]}/news/${fullpath[1]}/${fullpath[2]}/${fullpath[3]}.json`;
-        console.log(realurl,url,'url real')
+        console.log(realurl, url, "url real");
         const response = await fetch(realurl);
         const adata = await response.json();
-        console.log(adata,aid,'')
-        
-        const nowa = _.filter(adata.items, { 'id':aid });
-        console.log(nowa,'')
-        if(nowa.length>0){
+        const nowa = _.filter(adata.items, { id: aid });
+        if (nowa.length > 0) {
           const articleDetails = nowa[0];
-          $('article > h1').html(articleDetails.title);
-          $('article > .content_lines').html(articleDetails.content_text);
-          $('article > .content_ref > ul > li:nth-child(1)').html(articleDetails.display_time);
-          $('article > .content_ref > ul > li:nth-child(2)').html(articleDetails.display_location);
-          $('article > .content_ref > ul > li:nth-child(3)').html(articleDetails.keywords);
-          $('article > .content_ref > ul > li:nth-child(4)').html(articleDetails.reason);
-          $('article > .content_ref > ul > li:nth-child(5)').html(articleDetails.actors);
-          $('article > .content_ref > ul > li:nth-child(6)').html(articleDetails.process);
+          $("article > h1").html(articleDetails.title);
+          $("article > .content_lines").html(articleDetails.content_text);
+
+          //console.log(tzCompareTime(timestampToTime(articleDetails.display_time),articleDetails.city))
+          //articleDetails.display_time
+          const newsTime = tzCompareTime(
+            timestampToTime(articleDetails.display_time),
+            articleDetails.city
+          );
+          const newsLoc =
+            (articleDetails.city ?? articleDetails.display_location) +
+            "(" +
+            (articleDetails.city
+              ? tzCompare(articleDetails.city)
+              : articleDetails.display_time) +
+            ")";
+          $("article > .content_ref > ul > li:nth-child(1) span").html(
+            articleDetails.city
+              ? newsTime
+              : timestampToTime(articleDetails.display_time)
+          );
+          $("article > .content_ref > ul > li:nth-child(2) span").html(
+            articleDetails.city ? newsLoc : ""
+          );
+          $("article > .content_ref > ul > li:nth-child(3)").html(
+            articleDetails.keywords
+          );
+          $("article > .content_ref > ul > li:nth-child(4)").html(
+            articleDetails.reason
+          );
+          $("article > .content_ref > ul > li:nth-child(5)").html(
+            articleDetails.actors
+          );
+          $("article > .content_ref > ul > li:nth-child(6)").html(
+            articleDetails.process
+          );
+
+          console.log(articleDetails, "articleDetails");
         }
       }
 
@@ -162,10 +285,10 @@
       async function fetchJson(wknumber) {
         const response = await fetch(
           //apiPath[_env]+"/w"+wknumber+"_contents.json"
-          apiPath[_env]+"/news/2024/w"+wknumber+"_contents.json"
+          apiPath[_env] + "/news/2024/w" + wknumber + "_contents.json"
         );
         data = await response.json();
-        
+
         let wlst = document.getElementById("weeklist");
         console.log(data["cc"]);
 
@@ -180,7 +303,9 @@
                 .replaceAll("/", "_"),
             ].join("_");
             allist.push(
-              '<li>'+((index+1)+pagesize*(pagecache-1))+'.<a href="/news.html#id=' +
+              "<li>" +
+                (index + 1 + pagesize * (pagecache - 1)) +
+                '.<a href="/news.html#id=' +
                 id +
                 '" target="_self">' +
                 article.title +
@@ -189,7 +314,7 @@
           }
         }
 
-        const pageOne = getPaginatedItems(allist,1,pagesize);
+        const pageOne = getPaginatedItems(allist, 1, pagesize);
         totalPage = pageOne.total_pages;
         wlst.innerHTML = pageOne.data.join("");
       }
@@ -198,25 +323,34 @@
       var totalPage = 0;
 
       function nextPageContent(page) {
-
-        if(page==0){page=totalPage;nowPage=page;}
-        if(page>totalPage){page=1;nowPage=1;}
+        if (page == 0) {
+          page = totalPage;
+          nowPage = page;
+        }
+        if (page > totalPage) {
+          page = 1;
+          nowPage = 1;
+        }
         pagecache = page;
 
-        const pageOne = getPaginatedItems(allist,page,pagesize);
+        const pageOne = getPaginatedItems(allist, page, pagesize);
         document.getElementById("weeklist").innerHTML = pageOne.data.join("");
         document.getElementById("nowpage").innerHTML = page;
       }
 
-      function nextPage(){
+      function nextPage() {
         nowPage++;
-        nextPageContent(nowPage)
+        nextPageContent(nowPage);
       }
-      function prevPage(){
+      function prevPage() {
         nowPage--;
-        nextPageContent(nowPage)
+        nextPageContent(nowPage);
       }
     </script>
-    <script defer src="https://counter.xs-table.com/script.js" data-website-id="c02e1743-7834-42e6-8054-9a9040b2d795"></script>
+    <script
+      defer
+      src="https://counter.xs-table.com/script.js"
+      data-website-id="c02e1743-7834-42e6-8054-9a9040b2d795"
+    ></script>
   </body>
 </html>
