@@ -27,7 +27,7 @@
       </div>
     </footer>
     <script type="module">
-      import { tzCompare } from "https://cdn.xhashao.top/blog/tz-compare.js"
+      import { tzCompare } from "https://cdn.xhashao.top/blog/tz-compare.js?v=1.0.2";
       //import { tzCompare } from "./js/tz-compare.js"//https://img.xfiled.one/blog/tz-compare.js
       //document.getElementById("timezone").innerHTML = tzCompare('Bangalore');
       window.tzCompare = tzCompare;
@@ -80,7 +80,7 @@
 
       const nextQuote = (now) => {
         let nowQ = data["data"][now];
-        if (nowQ) {
+        if (nowQ && nowQ.quote) {
           document.getElementById("quotation_text").textContent = nowQ.quote;
           document.getElementById("quotation_linetwo").textContent =
             nowQ.line_two ?? "";
