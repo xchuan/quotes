@@ -1,12 +1,30 @@
 {
-  "data":[
-    {"quote":"如果你愿意，你生命中的每一刻都可以是美妙的体验。仅仅是吸气和呼气，就可以是一场巨大的爱恋。","line_two":"If you are willing, every momemt of your life can be a fantastic experience. Just inhalation and exhalation can be a tremendous love affair.","author":"- 萨古鲁 (Sadhguru) 印度上师","show_signature":"1","city":"Delhi"},
-    {"quote":"举勺挖金月","line_two":"Raise the spoon in your hand and start digging kiwi fruit from New Zealand.","author":"- Zespri（佳沛） 来自新西兰","show_signature":"","city":"Auckland"},
-    {"quote":"生活是否永远艰辛，还是只有童年如此？总是如此。","line_two":"Is life always hard, or is it just hard in childhood? It is always hard.","author":"《这个杀手不太冷》","show_signature":"","city":"Los Angeles"},
+  "data": [
+    {
+      "quote": "如果你愿意，你生命中的每一刻都可以是美妙的体验。仅仅是吸气和呼气，就可以是一场巨大的爱恋。",
+      "line_two": "If you are willing, every momemt of your life can be a fantastic experience. Just inhalation and exhalation can be a tremendous love affair.",
+      "author": "- 萨古鲁 (Sadhguru) 印度上师",
+      "show_signature": "1",
+      "city": "Delhi"
+    },
+    {
+      "quote": "举勺挖金月",
+      "line_two": "Raise the spoon in your hand and start digging kiwi fruit from New Zealand.",
+      "author": "- Zespri（佳沛） 来自新西兰",
+      "show_signature": "",
+      "city": "Auckland"
+    },
+    {
+      "quote": "生活是否永远艰辛，还是只有童年如此？总是如此。",
+      "line_two": "Is life always hard, or is it just hard in childhood? It is always hard.",
+      "author": "《这个杀手不太冷》",
+      "show_signature": "",
+      "city": "Los Angeles"
+    },
     {
       "quote": "青青女贞树，霜霰(xiàn)不改柯。意思是女贞树在严寒的霜雪天气中仍然保持着茂盛的枝叶。",
       "line_two": "Ligustrum lucidum always maintains lush branches and leaves in the severe frost and snow season.",
-      "author": "-张羽《杂诗》",
+      "author": "- 张羽《杂诗》",
       "show_signature": "",
       "city": "Hangzhou"
     },
@@ -20,16 +38,31 @@
     {
       "quote": "中国遥遥领先的不是科技，而是无意义的人情世故",
       "line_two": "The way of the world",
-      "author": "-蒋宇飞",
+      "author": "- 蒋宇飞",
       "show_signature": "",
       "city": "Shenzhen"
-    },{
+    },
+    {
       "quote": "社交底层逻辑：我有什么能力，我创造什么价值，我该得到什么利益；",
       "line_two": "What abilities do I have, what value do I create, and what benefits do I deserve?",
-      "author": "-蒋宇飞",
+      "author": "- 蒋宇飞",
       "show_signature": "",
       "city": "Shenzhen"
-    },{}
+    },
+    {
+      "quote": "人是一根系在动物和超人之间的绳子。也就是深渊上方的绳索。走过去危险，停在中途也危险，颤抖也危险，停住也危险。",
+      "line_two": "Man is a rope tied between the animal and the superman. It is a rope above the abyss. It is dangerous to walk over it, it is also dangerous to stop halfway, it is also dangerous to tremble, and it is also dangerous to stop.",
+      "author": "弗里德里希·威廉·尼采",
+      "show_signature": "",
+      "city": "Berlin"
+    },
+    {
+      "quote": "一椅传三代，人走椅还在",
+      "line_two": "A chair is passed down through three generations, even when the person is gone, the chair still remains",
+      "author": "网友",
+      "show_signature": "",
+      "city": "Shanghai"
+    }
   ],
-  "copyright":"免责声明：<br>以上文章内容均来源于原创网站或网友收集，不代表本站观点，与本站立场无关，仅供学习和参考。本站不是任何杂志的官方网站，直投稿件和出版请联系出版社。"
+  "copyright": "免责声明：<br>以上文章内容均来源于原创网站或网友收集，不代表本站观点，与本站立场无关，仅供学习和参考。本站不是任何杂志的官方网站，直投稿件和出版请联系出版社。"
 }
