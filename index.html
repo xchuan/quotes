@@ -54,7 +54,8 @@
         }
       });
       async function fetchJson() {
-        const response = await fetch("/quotes1.json");
+        //const response = await fetch("/quotes1.json");
+        const response = await fetch("https://cdn.xhashao.top/nchome/quotes.json");
         data = await response.json();
         maxlength = data["data"] ? data["data"].length : 0;
         cc = data["copyright"] ? data["copyright"] : "&copy; 2024";
@@ -70,7 +71,7 @@
         document.getElementById("quotation_text").textContent = data.chinese;
         document.getElementById("quotation_linetwo").textContent =
           data.english ?? "";
-        document.getElementById("author").textContent = data.author;
+        document.getElementById("author").textContent = data.author.includes('-') ? data.author : ('- '+data.author);
         //console.log(data.city,'data.citydata.citydata.city')
         document.getElementById("timezone").innerHTML = tzCompare(data.city);
         document.getElementById("signature").style.display = data.show_signature
@@ -84,7 +85,7 @@
           document.getElementById("quotation_text").textContent = nowQ.quote;
           document.getElementById("quotation_linetwo").textContent =
             nowQ.line_two ?? "";
-          document.getElementById("author").textContent = nowQ.author;
+          document.getElementById("author").textContent = String(nowQ.author).includes('-') ? nowQ.author : ('- '+nowQ.author);
 
           document.getElementById("timezone").innerHTML = tzCompare(nowQ.city);
           document.getElementById("signature").style.display =
