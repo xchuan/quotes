@@ -123,17 +123,20 @@
         counter = 0,
         maxlength = 0;
 
-      const _env = "dev";
+      const _env = "local";
 
       const apiPath = {
         dev: "http://localhost:8080",
         prod: "https://img.xfiled.one/nchome",
+        local: "",
       };
       // JavaScript fetch example
       document.addEventListener("DOMContentLoaded", function () {
-        var weeknumber = moment().week();
+        var mm = moment();
+        var weeknumber = mm.week();
+        var yearnumber = mm.year();
         document.getElementById("weeknumber").innerHTML = "Week " + weeknumber;
-        fetchJson(weeknumber);
+        fetchJson(weeknumber,yearnumber);
         const allhash = location.hash.replace("#", "").split("&");
         loadArticle(allhash);
       });
@@ -141,10 +144,8 @@
       let articleurl = "";
 
       window.addEventListener("hashchange", function (e) {
-        console.log("changed", location.hash);
         const allhash = location.hash.replace("#", "").split("&");
         document.getElementById("ai-output").innerHTML ="";
-        console.log(allhash, "");
         if (allhash.length > 0 && allhash[0]) {
           const endpath = allhash[0].split("_");
           articleurl = apiPath[_env] + "/" + endpath[3] + ".json";
@@ -170,7 +171,7 @@
           .substring(0, 1800);
 
         const evSource = new EventSource(
-          apiUrl + `/?q=${postTitle}，文章内容：${postContent}`
+          apiUrl + `?q=${postTitle}，文章内容：${postContent}`
         );
         evSource.onmessage = (event) => {
           if (event.data == "[DONE]") {
@@ -284,10 +285,11 @@
 
       var allist = [];
 
-      async function fetchJson(wknumber) {
+      async function fetchJson(wknumber,yrnumber) {
+
         const response = await fetch(
           //apiPath[_env]+"/w"+wknumber+"_contents.json"
-          apiPath[_env] + "/news/2024/w" + wknumber + "_contents.json"
+          apiPath[_env] + "/news/"+yrnumber+"/w" + wknumber + "_contents.json"
         );
         data = await response.json();
 
@@ -349,10 +351,5 @@
         nextPageContent(nowPage);
       }
     </script>
-    <script
-      defer
-      src="https://counter.xs-table.com/script.js"
-      data-website-id="c02e1743-7834-42e6-8054-9a9040b2d795"
-    ></script>
   </body>
 </html>
