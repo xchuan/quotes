@@ -1,0 +1,966 @@
+{
+  "items": [
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "us-stock-channel",
+        "global-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>白宫管理和预算办公室通知联邦雇员于11月13日返回工作岗位。</p>\n",
+      "content_more": "",
+      "content_text": "白宫管理和预算办公室通知联邦雇员于11月13日返回工作岗位。",
+      "cover_images": [],
+      "display_time": 1763005041,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003848,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003848"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/ivanka_avatar_9.png",
+        "display_name": "bumblebee",
+        "id": 120000003947,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000003947"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "a-stock-channel",
+        "financing-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>上证指数早盘收报4017.94点，涨0.44%。</p>\n\n<p>深证成指早盘收报13478.83点，涨1.80%。</p>\n\n<p>创业板指早盘收报3205.76点，涨2.68%。</p>\n\n<p>沪深300早盘收报4690.71点，涨0.96%。</p>\n\n<p>科创50早盘收报1404.08点，涨1.79%。</p>\n\n<p>中证500早盘收报7363.44点，涨1.66%。</p>\n\n<p>中证1000早盘收报7601.88点，涨1.54%。</p>\n",
+      "content_more": "",
+      "content_text": "上证指数早盘收报4017.94点，涨0.44%。\n\n深证成指早盘收报13478.83点，涨1.80%。\n\n创业板指早盘收报3205.76点，涨2.68%。\n\n沪深300早盘收报4690.71点，涨0.96%。\n\n科创50早盘收报1404.08点，涨1.79%。\n\n中证500早盘收报7363.44点，涨1.66%。\n\n中证1000早盘收报7601.88点，涨1.54%。",
+      "cover_images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/c095a3c3-fe75-46c9-aea6-b2a202363a18.png",
+          "height": 312,
+          "width": 888,
+          "size": 23110
+        }
+      ],
+      "display_time": 1763004660,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003845,
+      "images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/c095a3c3-fe75-46c9-aea6-b2a202363a18.png",
+          "height": 312,
+          "width": 888,
+          "size": 23110
+        }
+      ],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003845"
+    },
+    {
+      "article": {
+        "id": 3759281,
+        "image": {
+          "uri": "https://wpimg-wscn.awtmt.com/8681bdfd-c198-436d-889c-52c7995f6d1a.png",
+          "height": 96,
+          "width": 144,
+          "size": 31496
+        },
+        "platforms": [
+          "wscn-platform"
+        ],
+        "title": "A股低开高走，创业板涨超2%，锂电产业链领涨，港股小幅低开恒指跌0.52%，两市贵金属走强",
+        "uri": "https://wallstreetcn.com/articles/3759281"
+      },
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/ivanka_avatar_1.png",
+        "display_name": "A股团队",
+        "id": 110000000001,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/110000000001"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "xgb-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>1、市场早间低开高走，创业板指涨超2%，宁德时代涨超8%。锂电池板块掀涨停潮，天赐材料、融捷股份等近30股涨停。光伏、储能板块集体拉升，上能电气、联泓新科等封板。有色板块延续强势，国城矿业、闽发铝业等涨停。个股涨多跌少，沪深京三市超3800股飘红，上午半天成交1.27万亿。午间收盘沪指涨0.44%，深成指涨1.8%，创业板涨2.68%。<br/>2、板块概念方面，锂电、有机硅、贵金属、光伏等板块领涨；银行、高速公路、餐饮、中药等板块逆势下跌； <br/>3、两市共3583只个股上涨，83只个股涨停；1394只个股下跌，无个股跌停；25只股票炸板，炸板率25%。</p>\n",
+      "content_more": "",
+      "content_text": "1、市场早间低开高走，创业板指涨超2%，宁德时代涨超8%。锂电池板块掀涨停潮，天赐材料、融捷股份等近30股涨停。光伏、储能板块集体拉升，上能电气、联泓新科等封板。有色板块延续强势，国城矿业、闽发铝业等涨停。个股涨多跌少，沪深京三市超3800股飘红，上午半天成交1.27万亿。午间收盘沪指涨0.44%，深成指涨1.8%，创业板涨2.68%。\n2、板块概念方面，锂电、有机硅、贵金属、光伏等板块领涨；银行、高速公路、餐饮、中药等板块逆势下跌； \n3、两市共3583只个股上涨，83只个股涨停；1394只个股下跌，无个股跌停；25只股票炸板，炸板率25%。",
+      "cover_images": [],
+      "display_time": 1763004643,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003843,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [
+        {
+          "id": 1004212,
+          "title": "A股动态滚动播报",
+          "image_uri": "https://image.xuangubao.cn/FqbxmwY2R9vGjA0zjnIhxTWm37SN",
+          "uri": "https://wallstreetcn.com/themes/1004212",
+          "theme_type": "normal",
+          "key": "daxinwen"
+        },
+        {
+          "id": 1004237,
+          "title": "A股板块异动播报",
+          "image_uri": "https://image.xuangubao.cn/Fss2lT7kF_i0qiMNjj3T6wAU0fCY",
+          "uri": "https://wallstreetcn.com/themes/1004237",
+          "theme_type": "normal",
+          "key": "Agubankuaiyidongbobao"
+        }
+      ],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "11月13日午间收评：创业板指半日涨2.68%，锂电池板块掀涨停潮",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003843"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/ivanka_avatar_9.png",
+        "display_name": "bumblebee",
+        "id": 120000003947,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000003947"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "bond-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>国债期货早盘收盘，30年期主力合约跌0.29%，10年期主力合约跌0.09%，5年期主力合约跌0.06%，2年期主力合约跌0.00%。</p>\n",
+      "content_more": "",
+      "content_text": "国债期货早盘收盘，30年期主力合约跌0.29%，10年期主力合约跌0.09%，5年期主力合约跌0.06%，2年期主力合约跌0.00%。",
+      "cover_images": [],
+      "display_time": 1763004600,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003841,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003841"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "us-stock-channel",
+        "hk-stock-channel",
+        "global-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>百度正式发布文心大模型5.0。</p>\n",
+      "content_more": "",
+      "content_text": "百度正式发布文心大模型5.0。",
+      "cover_images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/cc49f1d0-7d31-487a-86ce-093ba58d94a6.jpg",
+          "height": 3024,
+          "width": 4032,
+          "size": 1929292
+        }
+      ],
+      "display_time": 1763004565,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003840,
+      "images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/cc49f1d0-7d31-487a-86ce-093ba58d94a6.jpg",
+          "height": 3024,
+          "width": 4032,
+          "size": 1929292
+        }
+      ],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003840"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "forex-channel",
+        "goldc-channel",
+        "oil-channel",
+        "us-stock-channel",
+        "bond-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>特朗普：美国政府不应该再次出现停摆，政府现在将恢复正常运作。</p>\n",
+      "content_more": "",
+      "content_text": "特朗普：美国政府不应该再次出现停摆，政府现在将恢复正常运作。",
+      "cover_images": [],
+      "display_time": 1763004096,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003838,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003838"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "forex-channel",
+        "goldc-channel",
+        "oil-channel",
+        "us-stock-channel",
+        "bond-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>美国总统特朗普再次呼吁取消参议院冗长辩论规则。</p>\n",
+      "content_more": "",
+      "content_text": "美国总统特朗普再次呼吁取消参议院冗长辩论规则。",
+      "cover_images": [],
+      "display_time": 1763004068,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003837,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003837"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "forex-channel",
+        "goldc-channel",
+        "oil-channel",
+        "us-stock-channel",
+        "bond-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>特朗普签署临时拨款法案，持续43天的美国政府史上最长“停摆”结束。</p>\n",
+      "content_more": "",
+      "content_text": "特朗普签署临时拨款法案，持续43天的美国政府史上最长“停摆”结束。",
+      "cover_images": [],
+      "display_time": 1763003979,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003836,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003836"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>近日，由北京推荐备案的梅赛德斯-奔驰（中国）汽车销售有限公司“奔驰虚拟助手”大模型，通过中央网信办等多个国家部门审批，成为全国首批、北京首款获批上线的外企大模型产品。截至11月11日，北京共有163款生成式人工智能大模型通过国家备案、上线运营。</p>\n",
+      "content_more": "",
+      "content_text": "近日，由北京推荐备案的梅赛德斯-奔驰（中国）汽车销售有限公司“奔驰虚拟助手”大模型，通过中央网信办等多个国家部门审批，成为全国首批、北京首款获批上线的外企大模型产品。截至11月11日，北京共有163款生成式人工智能大模型通过国家备案、上线运营。",
+      "cover_images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/d144cfb3-834e-4a24-a7fe-6c4facc764d9.png",
+          "height": 519,
+          "width": 1080,
+          "size": 105145
+        }
+      ],
+      "display_time": 1763003890,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003834,
+      "images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/d144cfb3-834e-4a24-a7fe-6c4facc764d9.png",
+          "height": 519,
+          "width": 1080,
+          "size": 105145
+        }
+      ],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "全国首批、北京首款外企大模型通过国家备案",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003834"
+    },
+    {
+      "article": null,
+      "ban_comment": false,
+      "channels": [
+        "bond-channel",
+        "global-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>进出口行发行15月期债券，规模130亿元，发行利率1.3875%，预期1.3800%，投标倍数2.12倍，边际倍数1.00倍。</p>\n",
+      "content_more": "<p>数据来源：qeubee终端</p>\n",
+      "content_text": "进出口行发行15月期债券，规模130亿元，发行利率1.3875%，预期1.3800%，投标倍数2.12倍，边际倍数1.00倍。",
+      "cover_images": [],
+      "display_time": 1763003760,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003832,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003832"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>中国国际经济交流中心副理事长、国务院发展研究中心原副主任王一鸣在太湖世界文化论坛·钱塘对话上作主旨演讲时表示，要增强股权市场支持科技创新功能。优化科技创新企业甄别筛选机制，进一步提升科创板、创业板等服务创新型企业的水平。深化退市制度改革，简化退市程序，完善退市标准，推动形成市场化、常态化退出机制。</p>\n",
+      "content_more": "",
+      "content_text": "中国国际经济交流中心副理事长、国务院发展研究中心原副主任王一鸣在太湖世界文化论坛·钱塘对话上作主旨演讲时表示，要增强股权市场支持科技创新功能。优化科技创新企业甄别筛选机制，进一步提升科创板、创业板等服务创新型企业的水平。深化退市制度改革，简化退市程序，完善退市标准，推动形成市场化、常态化退出机制。",
+      "cover_images": [],
+      "display_time": 1763003700,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003831,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "国研中心原副主任王一鸣：增强股权市场支持科技创新功能，深化退市制度改革",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003831"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>佰维存储近日在机构调研时表示，据TrendForce集邦咨询预测，NAND Flash和DRAM产品价格在2025年第四季度将继续上涨。目前存储价格持续回升，叠加传统旺季的备货动能，以及AI眼镜等新兴应用需求旺盛，从当前时点来看，景气度仍会持续。</p>\n",
+      "content_more": "",
+      "content_text": "佰维存储近日在机构调研时表示，据TrendForce集邦咨询预测，NAND Flash和DRAM产品价格在2025年第四季度将继续上涨。目前存储价格持续回升，叠加传统旺季的备货动能，以及AI眼镜等新兴应用需求旺盛，从当前时点来看，景气度仍会持续。",
+      "cover_images": [],
+      "display_time": 1763003649,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003830,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "佰维存储：目前存储价格持续回升，景气度仍会持续",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003830"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "us-stock-channel",
+        "hk-stock-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>在百度世界大会上，百度正式发布新一代昆仑芯和超节点产品天池。同时，百度宣布，计划未来五年按年推出新产品，持续打造最硬AI云，助力企业内化AI能力。</p>\n",
+      "content_more": "",
+      "content_text": "在百度世界大会上，百度正式发布新一代昆仑芯和超节点产品天池。同时，百度宣布，计划未来五年按年推出新产品，持续打造最硬AI云，助力企业内化AI能力。",
+      "cover_images": [],
+      "display_time": 1763003425,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003829,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "五年五芯，百度宣布打造最硬AI云",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003829"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>中国国际经济交流中心副理事长、国务院发展研究中心原副主任王一鸣在太湖世界文化论坛·钱塘对话上作主旨演讲时表示，要鼓励发展创业投资。畅通创投基金退出渠道。深入推进全面注册制改革，保持IPO和再融资常态化，给创投基金退出以稳定预期。大力发展并购市场，鼓励设立市场化并购母基金。</p>\n",
+      "content_more": "",
+      "content_text": "中国国际经济交流中心副理事长、国务院发展研究中心原副主任王一鸣在太湖世界文化论坛·钱塘对话上作主旨演讲时表示，要鼓励发展创业投资。畅通创投基金退出渠道。深入推进全面注册制改革，保持IPO和再融资常态化，给创投基金退出以稳定预期。大力发展并购市场，鼓励设立市场化并购母基金。",
+      "cover_images": [],
+      "display_time": 1763003294,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003828,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "国研中心原副主任王一鸣：畅通创投基金退出渠道 大力发展并购市场",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003828"
+    },
+    {
+      "article": null,
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "forex-channel",
+        "financing-channel",
+        "bond-channel",
+        "a-stock-channel",
+        "xgb-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>隔夜SHIBOR报1.3150%，下降10.00个基点。</p>\n\n<p>7天SHIBOR报1.4740%，上涨0.00个基点。</p>\n\n<p>3个月SHIBOR报1.5800%，上涨0.00个基点。</p>\n",
+      "content_more": "",
+      "content_text": "隔夜SHIBOR报1.3150%，下降10.00个基点。\n\n7天SHIBOR报1.4740%，上涨0.00个基点。\n\n3个月SHIBOR报1.5800%，上涨0.00个基点。",
+      "cover_images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/a4ceac41-4447-4f08-8bd9-34fb0c019226.png",
+          "height": 435,
+          "width": 491,
+          "size": 26693
+        }
+      ],
+      "display_time": 1763002872,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003827,
+      "images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/a4ceac41-4447-4f08-8bd9-34fb0c019226.png",
+          "height": 435,
+          "width": 491,
+          "size": 26693
+        }
+      ],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003827"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://dn-wscn-avatar.qbox.me/85/73/75/qq-20160808131025.jpg",
+        "display_name": "田晓艳",
+        "id": 125723,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/125723"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "commodity-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>11月12日至13日，2025世界动力电池大会在四川省宜宾市举办。辛国斌表示，电动化技术正从汽车向工程机械、船舶、航空器、机器人等领域全面渗透，动力电池产业发展前景广阔。工业和信息化部将持续推动动力电池产业高质量发展。一是强化战略引领，编制“十五五”智能网联新能源汽车、新型电池产业发展规划，明确发展目标和重点任务。</p>\n",
+      "content_more": "<p>二是扩大应用场景，促进动力电池在相关领域扩大应用，支持换电模式创新和车网互动试点，推动新能源汽车与智慧基础设施协同发展。三是健全治理体系，完善动力电池综合利用暂行办法，研究建立动力电池碳管理政策体系，进一步规范产业竞争秩序。四是拓宽合作空间，打造市场化、法治化、国际化一流营商环境，加快规则对接、标准协同，为高质量国际交流合作创造条件。</p>\n",
+      "content_text": "11月12日至13日，2025世界动力电池大会在四川省宜宾市举办。辛国斌表示，电动化技术正从汽车向工程机械、船舶、航空器、机器人等领域全面渗透，动力电池产业发展前景广阔。工业和信息化部将持续推动动力电池产业高质量发展。一是强化战略引领，编制“十五五”智能网联新能源汽车、新型电池产业发展规划，明确发展目标和重点任务。",
+      "cover_images": [],
+      "display_time": 1763002226,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003822,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "工信部：编制“十五五”智能网联新能源汽车、新型电池产业发展规划",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003822"
+    },
+    {
+      "article": {
+        "id": 3759281,
+        "image": {
+          "uri": "https://wpimg-wscn.awtmt.com/8681bdfd-c198-436d-889c-52c7995f6d1a.png",
+          "height": 96,
+          "width": 144,
+          "size": 31496
+        },
+        "platforms": [
+          "wscn-platform"
+        ],
+        "title": "A股低开高走，创业板涨超2%，锂电产业链领涨，港股小幅低开恒指跌0.52%，两市贵金属走强",
+        "uri": "https://wallstreetcn.com/articles/3759281"
+      },
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>创业板指涨幅扩大至2%，宁德时代涨超7%。沪指涨0.37%，深成指涨1.29%，锂电、有机硅、贵金属、光伏等方向领涨，沪深京三市上涨个股近3400只。</p>\n",
+      "content_more": "",
+      "content_text": "创业板指涨幅扩大至2%，宁德时代涨超7%。沪指涨0.37%，深成指涨1.29%，锂电、有机硅、贵金属、光伏等方向领涨，沪深京三市上涨个股近3400只。",
+      "cover_images": [],
+      "display_time": 1763002088,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003821,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003821"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/ivanka_avatar_11.png",
+        "display_name": "债券团队",
+        "id": 120000004211,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000004211"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "financing-channel",
+        "a-stock-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>沪深两市成交额突破1万亿元。</p>\n",
+      "content_more": "",
+      "content_text": "沪深两市成交额突破1万亿元。",
+      "cover_images": [],
+      "display_time": 1763002035,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003820,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003820"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "us-stock-channel",
+        "forex-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>韩国外交部长官赵显要求鲁比奥尽快发布上月韩美峰会的联合概况说明书。</p>\n\n<p>美国务卿鲁比奥向赵显保证，他将与美国相关机构合作，发布峰会的联合概况说明书。（韩联社）</p>\n",
+      "content_more": "",
+      "content_text": "韩国外交部长官赵显要求鲁比奥尽快发布上月韩美峰会的联合概况说明书。\n\n美国务卿鲁比奥向赵显保证，他将与美国相关机构合作，发布峰会的联合概况说明书。（韩联社）",
+      "cover_images": [],
+      "display_time": 1763001958,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003817,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003817"
+    },
+    {
+      "article": {
+        "id": 3759283,
+        "image": {
+          "uri": "https://wpimg-wscn.awtmt.com/879aa2be-b2d2-40ef-8973-85b5d9a25cb0.jpeg",
+          "height": 682,
+          "width": 1024,
+          "size": 40042
+        },
+        "platforms": [
+          "wscn-platform"
+        ],
+        "title": "百度世界大会直击：首次亮相昆仑芯超节点，单卡性能提升95%，无人驾驶技术已越临界点",
+        "uri": "https://wallstreetcn.com/articles/3759283"
+      },
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "us-stock-channel",
+        "hk-stock-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>百度集团执行副总裁、百度智能云事业群总裁沈抖透露，百度将发布全新一代昆仑芯M100及昆仑芯M300。其中，M100针对大规模推理的场景做了优化，充分发挥昆仑芯自研架构的优势，使得MOE模型的推理性能能够大幅提升，该芯片预计在2026年初上市。昆仑芯M300会在2027年的年初上线，该芯片主要是针对超大规模的、多模态大模型的训练和推理做了深入的优化，性能更强。</p>\n",
+      "content_more": "<p>超节点方案方面，百度天池256超节点预计在2026年上半年上市。最高支持256卡极速互联，卡间互联总带宽相比百度在今年4月发布的超节点，总带宽提高了四倍，性能提高50%以上。主流模型推理任务上，单卡tokens吞吐提升3.5倍。百度天池512超节点预计在2026年下半年上市，最高支持512卡极速互联，卡间互联总带宽在天池256超节点基础上翻倍，单个天池512的超节点可以完成万亿参数模型的训练。（全天候科技）</p>\n",
+      "content_text": "百度集团执行副总裁、百度智能云事业群总裁沈抖透露，百度将发布全新一代昆仑芯M100及昆仑芯M300。其中，M100针对大规模推理的场景做了优化，充分发挥昆仑芯自研架构的优势，使得MOE模型的推理性能能够大幅提升，该芯片预计在2026年初上市。昆仑芯M300会在2027年的年初上线，该芯片主要是针对超大规模的、多模态大模型的训练和推理做了深入的优化，性能更强。",
+      "cover_images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/9f06c416-25c9-4dd5-8834-6fca5c538358.jpg",
+          "height": 1280,
+          "width": 1707,
+          "size": 163081
+        },
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/3b8b6c33-7edf-4c77-9ab9-19536cc1aa25.jpg",
+          "height": 1280,
+          "width": 1707,
+          "size": 163081
+        },
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/c2bed3db-a742-444b-9778-e229b8c21b5e.jpg",
+          "height": 1280,
+          "width": 1707,
+          "size": 163081
+        }
+      ],
+      "display_time": 1763001788,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3003815,
+      "images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/9f06c416-25c9-4dd5-8834-6fca5c538358.jpg",
+          "height": 1280,
+          "width": 1707,
+          "size": 163081
+        },
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/3b8b6c33-7edf-4c77-9ab9-19536cc1aa25.jpg",
+          "height": 1280,
+          "width": 1707,
+          "size": 197827
+        },
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/c2bed3db-a742-444b-9778-e229b8c21b5e.jpg",
+          "height": 1440,
+          "width": 1920,
+          "size": 340385
+        },
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/9db9ef3d-1ffc-4fd3-a4e4-2a40bdfad210.jpg",
+          "height": 1280,
+          "width": 1707,
+          "size": 257428
+        }
+      ],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "百度发布两款昆仑芯芯片及两款超节点方案",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3003815"
+    }
+  ],
+  "next_cursor": "1763001788",
+  "op_cursor": "11659931",
+  "polling_cursor": "3003848"
+}
