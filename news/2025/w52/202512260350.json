@@ -1,0 +1,999 @@
+{
+  "items": [
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "forex-channel",
+        "bond-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>日本30年期国债收益率下行1个基点至3.390%。</p>\n",
+      "content_more": "",
+      "content_text": "日本30年期国债收益率下行1个基点至3.390%。",
+      "cover_images": [],
+      "display_time": 1766721099,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027026,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027026"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "forex-channel",
+        "oil-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>当地时间12月26日凌晨，尼日利亚外交部证实，尼日利亚与美国开展安全合作与情报协作，通过空袭行动，精准打击尼西北部地区的“恐怖目标”。尼外交部在社交媒体发表声明说，尼当局持续同美国等国际伙伴开展安全合作，“共同应对恐怖主义和暴力极端主义的长期威胁”。尼将继续同相关伙伴保持接触，并通过适当官方渠道向公众通报进展。（央视新闻）</p>\n",
+      "content_more": "",
+      "content_text": "当地时间12月26日凌晨，尼日利亚外交部证实，尼日利亚与美国开展安全合作与情报协作，通过空袭行动，精准打击尼西北部地区的“恐怖目标”。尼外交部在社交媒体发表声明说，尼当局持续同美国等国际伙伴开展安全合作，“共同应对恐怖主义和暴力极端主义的长期威胁”。尼将继续同相关伙伴保持接触，并通过适当官方渠道向公众通报进展。（央视新闻）",
+      "cover_images": [],
+      "display_time": 1766720814,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027025,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "尼日利亚政府证实美国对该国恐怖分子据点发动空袭",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027025"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "bond-channel",
+        "forex-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>日本财务大臣片山皋月在谈到从明年4月开始的财政年度预算时表示，初始预算规模与名义国内生产总值(GDP)之比已连续三年保持不变。预算规模虽然创下历史新高，但相对于经济规模而言并不算过大。日本成功将新债券发行量控制在30万亿日元以下。</p>\n",
+      "content_more": "",
+      "content_text": "日本财务大臣片山皋月在谈到从明年4月开始的财政年度预算时表示，初始预算规模与名义国内生产总值(GDP)之比已连续三年保持不变。预算规模虽然创下历史新高，但相对于经济规模而言并不算过大。日本成功将新债券发行量控制在30万亿日元以下。",
+      "cover_images": [],
+      "display_time": 1766719887,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027021,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "日本财务大臣：与经济体量相比2026财年预算规模不算太大",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027021"
+    },
+    {
+      "article": {
+        "id": 3762115,
+        "image": {
+          "uri": "https://wpimg-wscn.awtmt.com/ebf30cf8-b97c-4620-93ee-ffaeb504af0c.png",
+          "height": 528,
+          "width": 792,
+          "size": 675088
+        },
+        "platforms": [
+          "wscn-platform",
+          "tech-platform"
+        ],
+        "title": "A股三大指数集体翻红，锂电池产业链、有色金属高开，商业航天活跃，碳酸锂涨8%",
+        "uri": "https://wallstreetcn.com/articles/3762115"
+      },
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/ivanka_avatar_5.png",
+        "display_name": "bumblebee",
+        "id": 120000003947,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000003947"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "a-stock-channel",
+        "financing-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>上证指数早盘收报3952.09点，跌0.19%。</p>\n\n<p>深证成指早盘收报13554.07点，涨0.17%。</p>\n\n<p>创业板指早盘收报3234.63点，跌0.15%。</p>\n\n<p>沪深300早盘收报4643.95点，涨0.03%。</p>\n\n<p>科创50早盘收报1342.12点，跌0.51%。</p>\n\n<p>中证500早盘收报7415.97点，涨0.07%。</p>\n\n<p>中证1000早盘收报7570.90点，跌0.11%。</p>\n",
+      "content_more": "",
+      "content_text": "上证指数早盘收报3952.09点，跌0.19%。\n\n深证成指早盘收报13554.07点，涨0.17%。\n\n创业板指早盘收报3234.63点，跌0.15%。\n\n沪深300早盘收报4643.95点，涨0.03%。\n\n科创50早盘收报1342.12点，跌0.51%。\n\n中证500早盘收报7415.97点，涨0.07%。\n\n中证1000早盘收报7570.90点，跌0.11%。",
+      "cover_images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/11c3d565-2999-45bf-b49e-34fbed32cdd2.png",
+          "height": 313,
+          "width": 777,
+          "size": 22687
+        }
+      ],
+      "display_time": 1766719860,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027020,
+      "images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/11c3d565-2999-45bf-b49e-34fbed32cdd2.png",
+          "height": 313,
+          "width": 777,
+          "size": 22687
+        }
+      ],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027020"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/ivanka_avatar_1.png",
+        "display_name": "A股团队",
+        "id": 110000000001,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/110000000001"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>1、市场早间冲高回落，三大指数集体翻绿。海南板块再度大涨，京粮控股、钧达股份等涨停。锂电池板块盘中拉升，永兴材料、天际股份等涨停。商业航天概念继续活跃，神剑股份7连板，航天发展等涨停。下跌方面，算力硬件股下挫，长光华芯跌超10%。个股跌多涨少，沪深京三市近4000股飘绿，上午半天成交1.47万亿。午间收盘沪指跌0.19%，深成指涨0.17%，创业板跌0.15%。<br/>2、板块概念方面，海南、锂矿、贵金属、商业航天等板块领涨；造纸、光刻机、白酒、算力硬件等方向跌幅居前； <br/>3、两市共1305只个股上涨，57只个股涨停；3705只个股下跌，2只个股跌停；33只股票炸板，炸板率41%。</p>\n",
+      "content_more": "",
+      "content_text": "1、市场早间冲高回落，三大指数集体翻绿。海南板块再度大涨，京粮控股、钧达股份等涨停。锂电池板块盘中拉升，永兴材料、天际股份等涨停。商业航天概念继续活跃，神剑股份7连板，航天发展等涨停。下跌方面，算力硬件股下挫，长光华芯跌超10%。个股跌多涨少，沪深京三市近4000股飘绿，上午半天成交1.47万亿。午间收盘沪指跌0.19%，深成指涨0.17%，创业板跌0.15%。\n2、板块概念方面，海南、锂矿、贵金属、商业航天等板块领涨；造纸、光刻机、白酒、算力硬件等方向跌幅居前； \n3、两市共1305只个股上涨，57只个股涨停；3705只个股下跌，2只个股跌停；33只股票炸板，炸板率41%。",
+      "cover_images": [],
+      "display_time": 1766719853,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027019,
+      "images": [
+        {
+          "uri": "https://image.xuangubao.cn/Fs44LRkigDD9wcHeSPfyYUrQUvS_"
+        }
+      ],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [
+        {
+          "id": 1004212,
+          "title": "A股动态滚动播报",
+          "image_uri": "https://image.xuangubao.cn/FqbxmwY2R9vGjA0zjnIhxTWm37SN",
+          "uri": "https://wallstreetcn.com/themes/1004212",
+          "theme_type": "normal",
+          "key": "daxinwen"
+        },
+        {
+          "id": 1004237,
+          "title": "A股板块异动播报",
+          "image_uri": "https://image.xuangubao.cn/Fss2lT7kF_i0qiMNjj3T6wAU0fCY",
+          "uri": "https://wallstreetcn.com/themes/1004237",
+          "theme_type": "normal",
+          "key": "Agubankuaiyidongbobao"
+        }
+      ],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "12月26日午间收评：三大指数集体冲高回落，全市场下跌个股近4000只",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027019"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/ivanka_avatar_5.png",
+        "display_name": "bumblebee",
+        "id": 120000003947,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/120000003947"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "bond-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>国债期货早盘收盘，30年期主力合约涨0.33%，10年期主力合约涨0.09%，5年期主力合约涨0.06%，2年期主力合约涨0.03%。</p>\n",
+      "content_more": "",
+      "content_text": "国债期货早盘收盘，30年期主力合约涨0.33%，10年期主力合约涨0.09%，5年期主力合约涨0.06%，2年期主力合约涨0.03%。",
+      "cover_images": [],
+      "display_time": 1766719800,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027017,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027017"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "hk-stock-channel",
+        "us-stock-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>原财政部副部长朱光耀指出，人工智能代表了当下最先进的生产力，而在由此引发的全球产业革命浪潮中，中国首次站在了第一梯队。这主要得益于中国经济发展，特别是强大的制造业基础、电力生产能力、海量数据资源等，为人工智能产业发展提供支撑，并为全球生产力做出贡献。他进而指出，当前人工智能治理问题日益重要，亟待在伦理规范与治理规则方面形成共识，而在这个过程中，中国可以为全球做出贡献。</p>\n",
+      "content_more": "",
+      "content_text": "原财政部副部长朱光耀指出，人工智能代表了当下最先进的生产力，而在由此引发的全球产业革命浪潮中，中国首次站在了第一梯队。这主要得益于中国经济发展，特别是强大的制造业基础、电力生产能力、海量数据资源等，为人工智能产业发展提供支撑，并为全球生产力做出贡献。他进而指出，当前人工智能治理问题日益重要，亟待在伦理规范与治理规则方面形成共识，而在这个过程中，中国可以为全球做出贡献。",
+      "cover_images": [],
+      "display_time": 1766719711,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027016,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "朱光耀：人工智能发展需在伦理规范与治理规则方面形成共识",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027016"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/ivanka_avatar_1.png",
+        "display_name": "A股团队",
+        "id": 110000000001,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/110000000001"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "xgb-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>A股三大指数集体跳水翻绿。</p>\n",
+      "content_more": "",
+      "content_text": "A股三大指数集体跳水翻绿。",
+      "cover_images": [],
+      "display_time": 1766719511,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027015,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [
+        {
+          "id": 1004212,
+          "title": "A股动态滚动播报",
+          "image_uri": "https://image.xuangubao.cn/FqbxmwY2R9vGjA0zjnIhxTWm37SN",
+          "uri": "https://wallstreetcn.com/themes/1004212",
+          "theme_type": "normal",
+          "key": "daxinwen"
+        },
+        {
+          "id": 1004237,
+          "title": "A股板块异动播报",
+          "image_uri": "https://image.xuangubao.cn/Fss2lT7kF_i0qiMNjj3T6wAU0fCY",
+          "uri": "https://wallstreetcn.com/themes/1004237",
+          "theme_type": "normal",
+          "key": "Agubankuaiyidongbobao"
+        }
+      ],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027015"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "forex-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>从明年4月开始的财年中，日本经济产业省对尖端半导体和人工智能AI发展的预算支持势将增长近三倍，达到约1.23万亿日元（79亿美元）。日本经济产业省的整体预算较上年增长约50%，达到3.07万亿日元，主要是芯片和AI领域的支出大幅增加。</p>\n",
+      "content_more": "",
+      "content_text": "从明年4月开始的财年中，日本经济产业省对尖端半导体和人工智能AI发展的预算支持势将增长近三倍，达到约1.23万亿日元（79亿美元）。日本经济产业省的整体预算较上年增长约50%，达到3.07万亿日元，主要是芯片和AI领域的支出大幅增加。",
+      "cover_images": [],
+      "display_time": 1766719222,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027011,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "日本下一年预算案将芯片和AI领域的支持增加近三倍",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027011"
+    },
+    {
+      "article": {
+        "id": 3762115,
+        "image": {
+          "uri": "https://wpimg-wscn.awtmt.com/ebf30cf8-b97c-4620-93ee-ffaeb504af0c.png",
+          "height": 528,
+          "width": 792,
+          "size": 675088
+        },
+        "platforms": [
+          "wscn-platform",
+          "tech-platform"
+        ],
+        "title": "A股三大指数集体翻红，锂电池产业链、有色金属高开，商业航天活跃，碳酸锂涨8%",
+        "uri": "https://wallstreetcn.com/articles/3762115"
+      },
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/ivanka_avatar_1.png",
+        "display_name": "A股团队",
+        "id": 110000000001,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/110000000001"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "xgb-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>沪指、创业板指双双跳水翻绿，深成指涨幅快速收窄，造纸、光刻机、白酒、算力硬件等方向跌幅居前，沪深京三市下跌个股近3600只。</p>\n",
+      "content_more": "",
+      "content_text": "沪指、创业板指双双跳水翻绿，深成指涨幅快速收窄，造纸、光刻机、白酒、算力硬件等方向跌幅居前，沪深京三市下跌个股近3600只。",
+      "cover_images": [],
+      "display_time": 1766719137,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027012,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [
+        {
+          "id": 1004212,
+          "title": "A股动态滚动播报",
+          "image_uri": "https://image.xuangubao.cn/FqbxmwY2R9vGjA0zjnIhxTWm37SN",
+          "uri": "https://wallstreetcn.com/themes/1004212",
+          "theme_type": "normal",
+          "key": "daxinwen"
+        },
+        {
+          "id": 1004237,
+          "title": "A股板块异动播报",
+          "image_uri": "https://image.xuangubao.cn/Fss2lT7kF_i0qiMNjj3T6wAU0fCY",
+          "uri": "https://wallstreetcn.com/themes/1004237",
+          "theme_type": "normal",
+          "key": "Agubankuaiyidongbobao"
+        }
+      ],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027012"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/ivanka_avatar_1.png",
+        "display_name": "A股团队",
+        "id": 110000000001,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/110000000001"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>深成指涨超1%，沪指涨0.41%，创业板指涨0.89%，海南自贸区、光伏、锂电池、商业航天等方向领涨，沪深京三市上涨个股近2900只。</p>\n",
+      "content_more": "",
+      "content_text": "深成指涨超1%，沪指涨0.41%，创业板指涨0.89%，海南自贸区、光伏、锂电池、商业航天等方向领涨，沪深京三市上涨个股近2900只。",
+      "cover_images": [],
+      "display_time": 1766718695,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027008,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [
+        {
+          "id": 1004212,
+          "title": "A股动态滚动播报",
+          "image_uri": "https://image.xuangubao.cn/FqbxmwY2R9vGjA0zjnIhxTWm37SN",
+          "uri": "https://wallstreetcn.com/themes/1004212",
+          "theme_type": "normal",
+          "key": "daxinwen"
+        },
+        {
+          "id": 1004237,
+          "title": "A股板块异动播报",
+          "image_uri": "https://image.xuangubao.cn/Fss2lT7kF_i0qiMNjj3T6wAU0fCY",
+          "uri": "https://wallstreetcn.com/themes/1004237",
+          "theme_type": "normal",
+          "key": "Agubankuaiyidongbobao"
+        }
+      ],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027008"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>财政部经济建设司司长郭方明表示，国家创业投资引导基金立足自身特点，将与此前成立的政府引导基金进行错位发展，形成合力。一是做好创新链条的前端，依托早期的创新赛道定位，关注原始创新阶段企业融资缺口，侧重成长期的培育成果转化或产业赋能；二是依托耐心资本属性的构建，坚持激励机制，为后续阶段储备优质创新项目，推动创新成果从源头培育向产业发展，同时联动地方资金，结合区域开展合作，通过子基金联动，放大资金杠杆效应；三是以差异化风控体系培育创新生态，引导社会资本长期扎根科技创新领域，凝聚服务高水平科技自立自强，培育新质生产力。</p>\n",
+      "content_more": "",
+      "content_text": "财政部经济建设司司长郭方明表示，国家创业投资引导基金立足自身特点，将与此前成立的政府引导基金进行错位发展，形成合力。一是做好创新链条的前端，依托早期的创新赛道定位，关注原始创新阶段企业融资缺口，侧重成长期的培育成果转化或产业赋能；二是依托耐心资本属性的构建，坚持激励机制，为后续阶段储备优质创新项目，推动创新成果从源头培育向产业发展，同时联动地方资金，结合区域开展合作，通过子基金联动，放大资金杠杆效应；三是以差异化风控体系培育创新生态，引导社会资本长期扎根科技创新领域，凝聚服务高水平科技自立自强，培育新质生产力。",
+      "cover_images": [],
+      "display_time": 1766718469,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027006,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "财政部：引导基金将以差异化风控体系培育创新生态",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027006"
+    },
+    {
+      "article": {
+        "id": 3762117,
+        "image": {
+          "uri": "https://wpimg-wscn.awtmt.com/5513fdaf-caa7-4d4c-a189-f0be2faf5fd8.png",
+          "height": 528,
+          "width": 792,
+          "size": 508189
+        },
+        "platforms": [
+          "wscn-platform"
+        ],
+        "title": "重拾涨势！贵金属集体创新高：白银突破75，铂金期货再涨停，黄金触及4530",
+        "uri": "https://wallstreetcn.com/articles/3762117"
+      },
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "commodity-channel",
+        "goldc-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>现货铂金上涨8%至每盎司2,413.62美元，创纪录新高。</p>\n",
+      "content_more": "",
+      "content_text": "现货铂金上涨8%至每盎司2,413.62美元，创纪录新高。",
+      "cover_images": [],
+      "display_time": 1766718366,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027004,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027004"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "commodity-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>氧化铝主力合约触及涨停，涨幅6.99%。</p>\n",
+      "content_more": "",
+      "content_text": "氧化铝主力合约触及涨停，涨幅6.99%。",
+      "cover_images": [],
+      "display_time": 1766718279,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027003,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027003"
+    },
+    {
+      "article": null,
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "forex-channel",
+        "financing-channel",
+        "bond-channel",
+        "a-stock-channel",
+        "xgb-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>隔夜SHIBOR报1.2580%，下降0.40个基点。</p>\n\n<p>7天SHIBOR报1.4480%，上涨4.80个基点。</p>\n\n<p>3个月SHIBOR报1.6000%，上涨0.00个基点。</p>\n",
+      "content_more": "",
+      "content_text": "隔夜SHIBOR报1.2580%，下降0.40个基点。\n\n7天SHIBOR报1.4480%，上涨4.80个基点。\n\n3个月SHIBOR报1.6000%，上涨0.00个基点。",
+      "cover_images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/40984e02-7869-4f2b-8618-62dba349beeb.png",
+          "height": 612,
+          "width": 956,
+          "size": 80505
+        }
+      ],
+      "display_time": 1766718060,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3027000,
+      "images": [
+        {
+          "uri": "https://wpimg-wscn.awtmt.com/40984e02-7869-4f2b-8618-62dba349beeb.png",
+          "height": 612,
+          "width": 956,
+          "size": 80505
+        }
+      ],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3027000"
+    },
+    {
+      "article": {
+        "id": 3762117,
+        "image": {
+          "uri": "https://wpimg-wscn.awtmt.com/5513fdaf-caa7-4d4c-a189-f0be2faf5fd8.png",
+          "height": 528,
+          "width": 792,
+          "size": 508189
+        },
+        "platforms": [
+          "wscn-platform"
+        ],
+        "title": "重拾涨势！贵金属集体创新高：白银突破75，铂金期货再涨停，黄金触及4530",
+        "uri": "https://wallstreetcn.com/articles/3762117"
+      },
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "commodity-channel",
+        "goldc-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>铂金价格飙升至每盎司2390美元以上，创历史新高。</p>\n",
+      "content_more": "",
+      "content_text": "铂金价格飙升至每盎司2390美元以上，创历史新高。",
+      "cover_images": [],
+      "display_time": 1766717983,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3026999,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3026999"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "forex-channel",
+        "goldc-channel",
+        "oil-channel",
+        "us-stock-channel",
+        "hk-stock-channel",
+        "commodity-channel",
+        "bond-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>《人民日报》发表署名钟声的评论<a href=\"http://opinion.people.com.cn/n1/2025/1226/c461529-40632455.html\" rel=\"nofollow\">文章</a>称，中美关系不仅影响全球战略格局，也牵动世界经济脉动，关系各国民众生计。任何试图把中美关系简化为“竞争”甚至“对抗”的叙事，都是对现实的偏离和误读，不仅无益于问题解决，还会给两国乃至世界制造更严重的新问题。</p>\n",
+      "content_more": "<p>“十五五”规划建议明确提出要“积极扩大自主开放”“推动贸易创新发展”“拓展双向投资合作空间”，这将为中国同包括美国在内的全球各方拓展共赢合作打开更广阔空间。</p>\n\n<p>面对新形势、新挑战，中美双方都应以两国人民利益和世界长期福祉为重，把开放的门开得更大，把合作的路走得更宽，把稳定的信号释放得更充分，共同为世界应对挑战注入更强劲的正能量。</p>\n",
+      "content_text": "《人民日报》发表署名钟声的评论文章称，中美关系不仅影响全球战略格局，也牵动世界经济脉动，关系各国民众生计。任何试图把中美关系简化为“竞争”甚至“对抗”的叙事，都是对现实的偏离和误读，不仅无益于问题解决，还会给两国乃至世界制造更严重的新问题。",
+      "cover_images": [],
+      "display_time": 1766717539,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3026997,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "人民日报：中美双方应把合作的路走得更宽，把稳定的信号释放得更充分",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3026997"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/ivanka_avatar_1.png",
+        "display_name": "A股团队",
+        "id": 110000000001,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/110000000001"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel",
+        "xgb-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>A股大金融板块震荡走强，海联金汇涨停，中银证券冲击涨停，兴业证券涨超6%，指南针、国盛证券、东方财富等跟涨。</p>\n",
+      "content_more": "",
+      "content_text": "A股大金融板块震荡走强，海联金汇涨停，中银证券冲击涨停，兴业证券涨超6%，指南针、国盛证券、东方财富等跟涨。",
+      "cover_images": [],
+      "display_time": 1766717399,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3026995,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [
+        {
+          "id": 1004212,
+          "title": "A股动态滚动播报",
+          "image_uri": "https://image.xuangubao.cn/FqbxmwY2R9vGjA0zjnIhxTWm37SN",
+          "uri": "https://wallstreetcn.com/themes/1004212",
+          "theme_type": "normal",
+          "key": "daxinwen"
+        },
+        {
+          "id": 1004237,
+          "title": "A股板块异动播报",
+          "image_uri": "https://image.xuangubao.cn/Fss2lT7kF_i0qiMNjj3T6wAU0fCY",
+          "uri": "https://wallstreetcn.com/themes/1004237",
+          "theme_type": "normal",
+          "key": "Agubankuaiyidongbobao"
+        },
+        {
+          "id": 1004319,
+          "title": "券商概念股",
+          "image_uri": "https://image.xuangubao.cn/Fkv2FVzMtZDE-fK0iP9i1UiIfQpw",
+          "uri": "https://wallstreetcn.com/themes/1004319",
+          "theme_type": "normal",
+          "key": "quanshang"
+        },
+        {
+          "id": 1004362,
+          "title": "互联网金融概念股",
+          "image_uri": "https://image.xuangubao.cn/FroIQsjLYwnaPV0TpwP-dhckQBn9",
+          "uri": "https://wallstreetcn.com/themes/1004362",
+          "theme_type": "normal",
+          "key": "hulianwangjinrong"
+        }
+      ],
+      "score": 2,
+      "symbols": [],
+      "tags": [],
+      "title": "",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3026995"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel"
+      ],
+      "comment_count": 0,
+      "content": "<p>近期，专注于半导体先进制造检测设备的卓谱微 (上海) 电子科技有限公司完成数千万元人民币融资，本轮融资由创东方独家投资。融资资金将用于核心产品迭代升级、新产品线研发、生产规模扩大及高端人才团队扩充。</p>\n",
+      "content_more": "",
+      "content_text": "近期，专注于半导体先进制造检测设备的卓谱微 (上海) 电子科技有限公司完成数千万元人民币融资，本轮融资由创东方独家投资。融资资金将用于核心产品迭代升级、新产品线研发、生产规模扩大及高端人才团队扩充。",
+      "cover_images": [],
+      "display_time": 1766717355,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3026993,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "卓谱微完成数千万元融资，创东方独家投资",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3026993"
+    },
+    {
+      "article": null,
+      "author": {
+        "avatar": "https://wpimg-wscn.awtmt.com/571933c7-b3e8-4877-8b6b-ed1b1765b4fa",
+        "display_name": "石惠",
+        "id": 6029,
+        "is_followed": false,
+        "uri": "https://wallstreetcn.com/authors/6029"
+      },
+      "ban_comment": false,
+      "channels": [
+        "global-channel"
+      ],
+      "comment_count": 1,
+      "content": "<p>国家发展改革委创新和高技术发展司司长白京羽表示，在投资环节，坚持投早、投小、投长期、投硬科技的导向，引导带动创投市场发展。针对当前创投市场热门赛道一哄而上、偷肥拣瘦、急于求成等现象，引导基金坚持投早，以种子期、初创期企业为主要投资对象，对这类企业的投资规模将不低于基金总规模的70%。同时，坚持投小，对拟投资的小型企业要求对方估值在5亿元以下，且基金单笔投资不超过5000万元，确保资金直达各行各业的前端和末梢。此外，引导基金设置20年的存续期，打破了传统创投基金7年—10年的生命周期限制，对于创新药等回报周期长的领域，进一步放宽投资周期限制，真正做到长期主义。</p>\n",
+      "content_more": "",
+      "content_text": "国家发展改革委创新和高技术发展司司长白京羽表示，在投资环节，坚持投早、投小、投长期、投硬科技的导向，引导带动创投市场发展。针对当前创投市场热门赛道一哄而上、偷肥拣瘦、急于求成等现象，引导基金坚持投早，以种子期、初创期企业为主要投资对象，对这类企业的投资规模将不低于基金总规模的70%。同时，坚持投小，对拟投资的小型企业要求对方估值在5亿元以下，且基金单笔投资不超过5000万元，确保资金直达各行各业的前端和末梢。此外，引导基金设置20年的存续期，打破了传统创投基金7年—10年的生命周期限制，对于创新药等回报周期长的领域，进一步放宽投资周期限制，真正做到长期主义。",
+      "cover_images": [],
+      "display_time": 1766717320,
+      "fund_codes": [],
+      "global_channel_name": "7x24快讯",
+      "global_more_uri": "wscn://wallstreetcn.com/live",
+      "has_live_reading": false,
+      "highlight_title": "",
+      "id": 3026992,
+      "images": [],
+      "is_calendar": false,
+      "is_favourite": false,
+      "is_priced": false,
+      "is_scaling": false,
+      "reference": "",
+      "related_themes": [],
+      "score": 1,
+      "symbols": [],
+      "tags": [],
+      "title": "国家发改委：引导基金对种子期、初创期企业投资规模不低于基金总规模70%",
+      "type": "live",
+      "uri": "https://wallstreetcn.com/livenews/3026992"
+    }
+  ],
+  "next_cursor": "1766717320",
+  "op_cursor": "11726070",
+  "polling_cursor": "3027026"
+}
